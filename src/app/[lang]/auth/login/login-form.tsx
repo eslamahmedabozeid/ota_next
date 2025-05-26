@@ -42,6 +42,7 @@ const LogInForm = () => {
       if (response?.ok) {
         toast.success(t("toasts.login_success"));
         methods.reset();
+        console.log("tetx",routes.dashboard.index)
         window.location.assign(routes.dashboard.index);
       } else if (response?.error) {
         toast.error(t("toasts.login_error"));
