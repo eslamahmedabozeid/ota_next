@@ -36,6 +36,7 @@ const LogInForm = () => {
         email,
         password,
         redirect: false,
+        callbackUrl: routes.dashboard.index
       });
       console.log("response Faried", { response });
       
