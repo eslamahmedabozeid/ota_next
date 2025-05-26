@@ -5,6 +5,9 @@ import {FormTabSection, TableFilterFields} from "@/types";
 import { Level } from "@/types/levels";
 import { TFunction } from "i18next";
 import { Metadata } from "next";
+import { getServerSession } from "next-auth/next";
+import { redirect } from "next/navigation";
+import { authOptions } from "@/lib/auth";
 
 type ParamsProps = { lang: string };
 const options = (t: TFunction) => {
@@ -58,7 +61,12 @@ export default async function DashboardPageView({
   params: Promise<ParamsProps>;
 }) {
   const { lang } = await params;
+const session = await getServerSession(authOptions);
+const resolvedParams = await params;
 
+if (!session) {
+  redirect(`/${resolvedParams.lang}/auth/login`);
+}
   const { t } = await initTranslations(lang, [tablesNames.cars]);
   const filterFields = getFilterFields(t);
 
