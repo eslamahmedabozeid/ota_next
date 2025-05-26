@@ -1,0 +1,111 @@
+{
+  "page_header": {
+    "title": "الوجهات",
+    "subtitle": "إدارة الوجهات",
+    "actions": {
+      "create": "إضافة وجهة"
+    }
+  },
+  "meta_data": {
+    "title": "إدارة الوجهات"
+  },
+  "table": {
+    "id": "المعرف",
+        "lat":"خط العرض",
+    "lng":"خط الطول",
+    "images":"صور المعرض",
+    "description":"الوصف",
+    "name": "الاسم",
+    "image": "الصورة",
+    "main_image": "الصورة الرئيسية",
+    "tags": "الوسوم",
+    "active": "الحالة",
+    "temperature": "درجة الحرارة",
+    "country": "الدولة",
+    "is_featured": "مميزة؟",
+    "formFields": {
+      "name_en": {
+        "label": "الاسم (بالإنجليزية)",
+        "placeholder": "أدخل الاسم بالإنجليزية"
+      },
+      "name_ar": {
+        "label": "الاسم (بالعربية)",
+        "placeholder": "أدخل الاسم بالعربية"
+      },
+      "description_en": {
+        "label": "الوصف (بالإنجليزية)",
+        "placeholder": "أدخل الوصف بالإنجليزية"
+      },
+      "description_ar": {
+        "label": "الوصف (بالعربية)",
+        "placeholder": "أدخل الوصف بالعربية"
+      },
+      "step_1": {
+        "course": {
+          "label": "الدولة",
+          "placeholder": "اختر الدولة"
+        }
+      },
+      "lat": {
+        "label": "خط العرض",
+        "placeholder": "أدخل خط العرض"
+      },
+      "lng": {
+        "label": "خط الطول",
+        "placeholder": "أدخل خط الطول"
+      },
+      "temperature": {
+        "label": "درجة الحرارة",
+        "placeholder": "أدخل درجة الحرارة"
+      },
+      "image": {
+        "label": "صور الوجهة"
+      },
+      "tags_en": {
+        "label": "الوسوم (بالإنجليزية)",
+        "placeholder": "أدخل الوسوم بالإنجليزية مفصولة بفاصلة"
+      },
+      "tags_ar": {
+        "label": "الوسوم (بالعربية)",
+        "placeholder": "أدخل الوسوم بالعربية مفصولة بفاصلة"
+      },
+      "active": {
+        "label": "نشطة؟"
+      },
+      "is_featured": {
+        "label": "هل مميزة؟"
+      }
+    }
+  }
+  ,
+  "validations": {
+    "name": {
+      "en": {
+        "required": "الاسم بالإنجليزية مطلوب"
+      },
+      "ar": {
+        "required": "الاسم بالعربية مطلوب"
+      }
+    },
+    "description": {
+      "en": {
+        "required": "الوصف بالإنجليزية مطلوب"
+      },
+      "ar": {
+        "required": "الوصف بالعربية مطلوب"
+      }
+    },
+    "country": {
+      "required": "يجب اختيار الدولة"
+    },
+    "lat": {
+      "invalid": "خط العرض يجب أن يكون رقمًا صحيحًا"
+    },
+    "lng": {
+      "invalid": "خط الطول يجب أن يكون رقمًا صحيحًا"
+    },
+    "temperature": {
+      "invalid": "درجة الحرارة يجب أن تكون رقمًا"
+    }
+  }
+}

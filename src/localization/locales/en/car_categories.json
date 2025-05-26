@@ -1,0 +1,49 @@
+{
+    "page_header": {
+        "title": "Car Categories",
+        "subtitle": "Manage car categories",
+        "actions": {
+            "create": "Add Category"
+        }
+    },
+    "meta_data": {
+        "title": "Manage Car Categories"
+    },
+    "table": {
+        "id": "ID",
+        "title": "Title",
+        "icon": "Icon",
+
+        "true": "Yes",
+        "false": "No",
+        "formFields": {
+            "name_en": {
+                "label": "Title (English)",
+                "placeholder": "Enter title in English"
+            },
+            "name_ar": {
+                "label": "Title (Arabic)",
+                "placeholder": "Enter title in Arabic"
+            },
+            "icon": {
+                "label": "Category Icon"
+            },
+            "active": {
+                "label": "Is Active?"
+            }
+        }
+    },
+    "validations": {
+        "name": {
+            "en": {
+                "required": "English name is required"
+            },
+            "ar": {
+                "required": "Arabic name is required"
+            }
+        },
+        "icon": {
+            "required": "Icon is required"
+        }
+    }
+}

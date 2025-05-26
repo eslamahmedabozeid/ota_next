@@ -1,0 +1,110 @@
+{
+  "meta_data": {
+    "title": "شهادات الدورات"
+  },
+  "page_header": {
+    "title": "شهادات الدورات",
+    "subtitle": "إدارة شهادات إتمام الدورة",
+    "actions": {
+      "create": "إضافة شهادة"
+    }
+  },
+  "table": {
+    "id": "المعرف",
+    "title": "العنوان",
+    "description": "الوصف",
+    "course_id": "الدورة",
+    "image": "الصورة المصغرة",
+    "certificate_url": "الصورة",
+    "active": "الحالة",
+    "active_true": "نشط",
+    "course": "الدورة",
+    "active_false": "غير نشط",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث",
+    "translation": "اللغة",
+    "translations": "اللغات",
+    "locales": "اللغات المتاحة",
+    "filterFields": {
+      "search": {
+        "title": {
+          "placeholder": "ابحث بعنوان الشهادة"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "title_en": {
+          "label": "العنوان (بالإنجليزية)",
+          "placeholder": "أدخل عنوان الشهادة بالإنجليزية"
+        },
+        "title_ar": {
+          "label": "العنوان (بالعربية)",
+          "placeholder": "أدخل عنوان الشهادة بالعربية"
+        },
+        "description_en": {
+          "label": "الوصف (بالإنجليزية)",
+          "placeholder": "أدخل وصف الشهادة بالإنجليزية"
+        },
+        "description_ar": {
+          "label": "الوصف (بالعربية)",
+          "placeholder": "أدخل وصف الشهادة بالعربية"
+        },
+        "course": {
+          "label": "الدورة",
+          "placeholder": "اختر الدورة المرتبطة"
+        },
+        "image": {
+          "label": "الصورة المصغرة"
+        },
+        "certificate_url": {
+          "label": "الصورة",
+          "placeholder": "أدخل رابط ملف الشهادة"
+        },
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": {
+            "0": { "label": "غير نشط" },
+            "1": { "label": "نشط" }
+          }
+        }
+      }
+    }
+  },
+  "validations": {
+    "title_en": {
+      "required": "العنوان (بالإنجليزية) مطلوب.",
+      "pattern": "يُسمح فقط بالحروف الإنجليزية."
+    },
+    "title_ar": {
+      "required": "العنوان (بالعربية) مطلوب.",
+      "pattern": "يُسمح فقط بالحروف العربية."
+    },
+    "description_en": {
+      "required": "الوصف (بالإنجليزية) مطلوب."
+    },
+    "description_ar": {
+      "required": "الوصف (بالعربية) مطلوب."
+    },
+    "course_id": {
+      "required": "الدورة مطلوبة."
+    },
+    "certificate_url": {
+      "required": "رابط الشهادة مطلوب."
+    },
+    "active": {
+      "required": "الحالة مطلوبة."
+    }
+  }
+}

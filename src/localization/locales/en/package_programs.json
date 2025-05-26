@@ -1,0 +1,88 @@
+{
+     "page_header": {
+        "title": "Package Programs",
+        "subtitle": "Manage package Programs",
+        "actions": {
+            "create": "Add Program"
+        }
+    },
+    "meta_data": {
+        "title": "Package Program Management"
+    },
+  "table": {
+    "id": "ID",
+    "title": "Title",
+    "lat": "Latitude",
+    "lng": "Longitude",
+    "order_number": "Order Number",
+    "package_id": "Package",
+    "thumbnail": "Thumbnail",
+    "formFields": {
+      "title_en": {
+        "label": "Title (English)",
+        "placeholder": "Enter title in English"
+      },
+      "title_ar": {
+        "label": "Title (Arabic)",
+        "placeholder": "Enter title in Arabic"
+      },
+      "description_en": {
+        "label": "Description (English)",
+        "placeholder": "Enter description in English"
+      },
+      "description_ar": {
+        "label": "Description (Arabic)",
+        "placeholder": "Enter description in Arabic"
+      },
+      "package": {
+        "label": "Package",
+        "placeholder": "Select a package"
+      },
+      "lat": {
+        "label": "Latitude",
+        "placeholder": "Enter latitude"
+      },
+      "lng": {
+        "label": "Longitude",
+        "placeholder": "Enter longitude"
+      },
+      "order_number": {
+        "label": "Order Number",
+        "placeholder": "Enter order number"
+      },
+      "image": {
+        "label": "Image"
+      }
+    }
+  },
+  "validations": {
+    "title": {
+      "en": {
+        "required": "English title is required"
+      },
+      "ar": {
+        "required": "Arabic title is required"
+      }
+    },
+    "description": {
+      "en": {
+        "required": "English description is required"
+      },
+      "ar": {
+        "required": "Arabic description is required"
+      }
+    },
+    "package": {
+      "required": "Package selection is required"
+    },
+    "lat": {
+      "required": "Latitude is required"
+    },
+    "lng": {
+      "required": "Longitude is required"
+    }
+  },
+  "meta_data": {
+    "title": "Package Programs"
+  }
+}

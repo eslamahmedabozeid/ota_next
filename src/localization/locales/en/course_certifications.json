@@ -1,0 +1,110 @@
+{
+  "meta_data": {
+    "title": "Course Certifications"
+  },
+  "page_header": {
+    "title": "Course Certifications",
+    "subtitle": "Manage your course completion certificates",
+    "actions": {
+      "create": "Add Certification"
+    }
+  },
+  "table": {
+    "id": "ID",
+    "title": "Title",
+    "description": "Description",
+    "course_id": "Course",
+    "image": "thumbnail",
+    "certificate_url": "Image",
+    "course": "Course",
+    "active": "Status",
+    "active_true": "Active",
+    "active_false": "Inactive",
+    "created_at": "Created At",
+    "updated_at": "Updated At",
+    "translation": "Language",
+    "translations": "Languages",
+    "locales": "Available Languages",
+    "filterFields": {
+      "search": {
+        "title": {
+          "placeholder": "Search by certificate title"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "title_en": {
+          "label": "Title (English)",
+          "placeholder": "Enter certificate title in English"
+        },
+        "title_ar": {
+          "label": "Title (Arabic)",
+          "placeholder": "Enter certificate title in Arabic"
+        },
+        "description_en": {
+          "label": "Description (English)",
+          "placeholder": "Enter certificate description in English"
+        },
+        "description_ar": {
+          "label": "Description (Arabic)",
+          "placeholder": "Enter certificate description in Arabic"
+        },
+        "course": {
+          "label": "Course",
+          "placeholder": "Select the associated course"
+        },
+        "image": {
+          "label": "thumbnail"
+        },
+        "certificate_url": {
+          "label": "Image",
+          "placeholder": "Enter the URL of the certificate file"
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": {
+            "0": { "label": "Inactive" },
+            "1": { "label": "Active" }
+          }
+        }
+      }
+    }
+  },
+  "validations": {
+    "title_en": {
+      "required": "Title (English) is required.",
+      "pattern": "Only English letters are allowed."
+    },
+    "title_ar": {
+      "required": "Title (Arabic) is required.",
+      "pattern": "Only Arabic letters are allowed."
+    },
+    "description_en": {
+      "required": "Description (English) is required."
+    },
+    "description_ar": {
+      "required": "Description (Arabic) is required."
+    },
+    "course_id": {
+      "required": "Course is required."
+    },
+    "certificate_url": {
+      "required": "Certificate URL is required."
+    },
+    "active": {
+      "required": "Status is required."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "page_header": {
+    "title": "Visa Types",
+    "subtitle": "Manage visa types",
+    "actions": {
+      "create": "Add Visa Type"
+    }
+  },
+  "meta_data": {
+    "title": "Manage Visa Types"
+  },
+  "table": {
+    "id": "ID",
+    "title": "Title",
+    "price": "Price",
+    "processing_time": "Processing Time",
+    "validity": "Validity",
+    "true": "Yes",
+    "false": "No",
+    "formFields": {
+      "name_en": {
+        "label": "Title (English)",
+        "placeholder": "Enter title in English"
+      },
+      "name_ar": {
+        "label": "Title (Arabic)",
+        "placeholder": "Enter title in Arabic"
+      },
+      "price": {
+        "label": "Price",
+        "placeholder": "Enter price"
+      },
+      "processing_time": {
+        "label": "Processing Time",
+        "placeholder": "Enter processing time"
+      },
+      "validity": {
+        "label": "Validity",
+        "placeholder": "Enter validity duration"
+      },
+      "active": {
+        "label": "Is Active?"
+      }
+    }
+  },
+  "validations": {
+    "name": {
+      "en": {
+        "required": "English title is required"
+      },
+      "ar": {
+        "required": "Arabic title is required"
+      }
+    },
+    "price": {
+      "invalid": "Price must be a valid number"
+    },
+    "processing_time": {
+      "required": "Processing time is required"
+    },
+    "validity": {
+      "required": "Validity is required"
+    }
+  }
+}

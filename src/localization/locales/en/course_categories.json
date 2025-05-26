@@ -1,0 +1,164 @@
+{
+  "meta_data": {
+    "title": "Course Categories"
+  },
+  "page_header": {
+    "title": "Course Categories",
+    "subtitle": "Your Course Categories",
+    "actions": { "create": "Add Category" }
+  },
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "order": "Order",
+    "active": "Status",
+    "active_true": "Open",
+    "active_false": "Closed",
+    "image": "Image",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "is_featured": "Featured",
+    "translation":"Language",
+    "translations":"Languages",
+    "lat": "Latitude",
+    "target": "Target",
+    "type": "Type",
+    "lng": "Longitude",
+    "locales": "Locales",
+    "filterFields": {
+      "search": {
+        "name": {
+          "placeholder": "Search by name"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "type": {
+          "options": {
+            "course": {
+              "label": "Course"
+            },
+            "diploma": {
+              "label": "Diploma"
+            },
+            "program": {
+              "label": "Program"
+            },
+            "training": {
+              "label": "Training"
+            },
+            "all": {
+              "label": "All"
+            }
+          }
+        },
+        "target": {
+          "label": "Target Audience",
+          "placeholder": "Select audience",
+          "options": [
+                  { "label": "Business", "value": "business" },
+                  { "label": "Individual", "value": "individual" }
+                ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "name_en": {
+          "label": "Name (English)",
+          "placeholder": "Enter the Level name in English"
+        },
+        "name_ar": {
+          "label": "Name (Arabic)",
+          "placeholder": "Enter the Level name in Arabic"
+        },
+        "lat": {
+          "label": "Latitude",
+          "placeholder": "Enter the latitude"
+        },
+        "lng": {
+          "label": "Longitude",
+          "placeholder": "Enter the longitude"
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "featured": {
+          "label": "Featured Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "type": {
+          "label": "Type",
+          "placeholder": "Select type",
+          "options": [
+            { "label": "Diploma", "value": "diploma" },
+            { "label": "Course", "value": "course" }
+          ]
+        },
+        "target": {
+          "label": "Target Audience",
+          "placeholder": "Select audience",
+          "options": [
+                  { "label": "Business", "value": "business" },
+                  { "label": "Individual", "value": "individual" }
+                ]
+        },
+   
+        "order": {
+          "label": "Order",
+          "placeholder": "Enter the order"
+        },
+        "image": {
+          "label": "Image"
+        }
+      }
+    }
+  },
+  "validations": {
+    "name_en": {
+      "required": "English name is required.",
+      "pattern": "Only English letters are allowed."
+    },
+    "name_ar": {
+      "required": "Arabic name is required.",
+      "pattern": "Only Arabic letters are allowed."
+    },
+    "active": {
+      "required": "Status is required."
+    },
+    "latitude": {
+      "required": "Latitude is required.",
+      "range": "Latitude must be between -90 and 90."
+    },
+    "longitude": {
+      "required": "Longitude is required.",
+      "range": "Longitude must be between -180 and 180."
+    },
+    "order": {
+      "pattern": "Please enter a valid number for order.",
+      "integer": "Order must be an integer.",
+      "min": "Order must be at least 1."
+    },
+    "image": {
+      "required": "Image is required.",
+      "pattern": "Invalid file type.",
+      "size": "Image must be smaller than 5MB."
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "meta_data": {
+    "title": "Course Reviews"
+  },
+  "page_header": {
+    "title": "Course Reviews",
+    "subtitle": "Manage feedback submitted by users",
+    "actions": {
+      "create": "Add Review"
+    }
+  },
+  "table": {
+    "id": "ID",
+    "user_name": "Full Name",
+    "phone": "Phone",
+    "email": "Email",
+    "image": "Reviewer Image",
+    "course": "Course",
+    "course_id": "Course",
+    "comment": "Comment",
+    "rate": "Rating",
+    "status": "Status",
+    "status_published": "Published",
+    "status_pending": "Pending",
+    "status_rejected": "Rejected",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "title": "Title",
+    "short_info": "Short Info",
+    "details": "Details",
+    "slug": "Slug",
+    "category_id": "Category",
+    "level_id": "Level",
+    "type": "Type",
+    "gender": "Gender",
+    "name": "Title",
+    "creator": "Creator",
+    "duration": "Duration",
+    "category": "Category",
+    "available_users_num": "Available Seats",
+    "registered_users": "Registered Users",
+    "duration_type": "Duration Type",
+    "duration_value": "Duration",
+    "branches": "Branches",
+    "available_dates": "Available Dates",
+    "thumbnail": "Thumbnail",
+    "images": "Gallery",
+    "brochure": "Brochure Link",
+    "brief_video": "Brief Video Link",
+    "is_featured": "Featured",
+    "active": "Status",
+    "level":" Level",
+    "created_by": "Created By",
+    "target": "Target Audience",
+
+    "verified": "Verified",
+    "created_at": "Created At",
+    "updated_at": "Updated At",
+    "active_true": "Active",
+    "active_false": "Inactive",
+
+    "translation": "Language",
+    "translations": "Languages",
+    "locales": "Available Languages",
+    
+    "filterFields": {
+      "search": {
+        "user_name": {
+          "placeholder": "Search by name"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Published", "value": "published" },
+            { "label": "Pending", "value": "pending" },
+            { "label": "Rejected", "value": "rejected" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "user_name": {
+          "label": "Full Name",
+          "placeholder": "Enter full name"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "Enter phone number"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter email address"
+        },
+        "image": {
+          "label": "Image URL",
+          "placeholder": "Paste image URL"
+        },
+        "course": {
+          "label": "Course",
+          "placeholder": "Select related course"
+        },
+        "comment": {
+          "label": "Comment",
+          "placeholder": "Write your review"
+        },
+        "rate": {
+          "label": "Rating",
+          "placeholder": "Enter rating (1 to 5)"
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": {
+            "published": "Published",
+            "pending": "Pending",
+            "rejected": "Rejected"
+          }
+        }
+      }
+    }
+  },
+  "validations": {
+    "user_name": {
+      "required": "Full name is required."
+    },
+    "phone": {
+      "required": "Phone number is required.",
+      "pattern": "Please enter a valid phone number."
+    },
+    "email": {
+      "required": "Email address is required.",
+      "pattern": "Please enter a valid email address."
+    },
+    "image": {
+      "required": "Image URL is required.",
+      "pattern": "Please enter a valid image URL."
+    },
+    "course_id": {
+      "required": "Course is required.",
+      "integer": "Course ID must be a valid number."
+    },
+    "comment": {
+      "required": "Comment is required."
+    },
+    "rate": {
+      "required": "Rating is required.",
+      "min": "Minimum rating is 1.",
+      "max": "Maximum rating is 5.",
+      "integer": "Rating must be a whole number."
+    },
+    "status": {
+      "required": "Status is required."
+    }
+  }
+}

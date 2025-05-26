@@ -1,0 +1,136 @@
+{
+  "meta_data": {
+    "title": "أقسام المنهج"
+  },
+  "page_header": {
+    "title": "أقسام المنهج",
+    "subtitle": "إدارة جميع أقسام المنهج الخاصة بالدورات",
+    "actions": {
+      "create": "إضافة قسم منهج"
+    }
+  },
+  "table": {
+    "id": "المعرف",
+    "slug": "المعرف النصي",
+    "title": "العنوان",
+    "description": "الوصف",
+    "thumbnail": "الصورة المصغرة",
+    "featured": "مميز",
+    "coursetitle": "عنوان الدورة",
+    "active": "الحالة",
+    "active_true": "نشط",
+    "active_false": "غير نشط",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث",
+    "course_id": "معرف الدورة",
+    "course":"الدورة",
+    "short_info": "معلومات مختصرة",
+    "details": "التفاصيل",
+    "category_id": "الفئة",
+    "level_id": "المستوى",
+    "type": "النوع",
+    "gender": "الجنس",
+    "name": "العنوان",
+    "creator": "المنشئ",
+    "duration": "المدة",
+    "category": "الفئة",
+    "available_users_num": "المقاعد المتاحة",
+    "registered_users": "المستخدمون المسجلون",
+    "duration_type": "نوع المدة",
+    "duration_value": "المدة",
+    "branches": "الفروع",
+    "available_dates": "التواريخ المتاحة",
+    "level": "المستوى",
+    "created_by": "تم إنشاؤه بواسطة",
+    "images": "معرض الصور",
+    "target": "الجمهور المستهدف",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "verified": "مؤكد",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث",
+    "brochure": "رابط الكتيب",
+    "brief_video": "رابط الفيديو المختصر",
+    "is_featured": "مميز",
+    "registrations_count": "عدد التسجيلات",
+    "translation": "اللغة",
+    "translations": "اللغات",
+    "locales": "اللغات المتوفرة",
+    "filterFields": {
+      "sidebarFilters": {
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "title_en": {
+          "label": "العنوان (بالإنجليزية)",
+          "placeholder": "أدخل عنوان القسم باللغة الإنجليزية"
+        },
+        "title_ar": {
+          "label": "العنوان (بالعربية)",
+          "placeholder": "أدخل عنوان القسم باللغة العربية"
+        },
+        "description_en": {
+          "label": "الوصف (بالإنجليزية)",
+          "placeholder": "أدخل وصف القسم باللغة الإنجليزية"
+        },
+        "description_ar": {
+          "label": "الوصف (بالعربية)",
+          "placeholder": "أدخل وصف القسم باللغة العربية"
+        },
+        "course": {
+          "label": "الدورة المرتبطة",
+          "placeholder": "اختر الدورة المرتبطة بهذا القسم"
+        },
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر حالة التفعيل",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "order": {
+          "label": "الترتيب",
+          "placeholder": "أدخل ترتيب العرض (مثل 1، 2، 3...)"
+        }
+      }
+    }
+  },
+  "validations": {
+    "title_en": {
+      "required": "العنوان باللغة الإنجليزية مطلوب.",
+      "pattern": "يسمح فقط بالحروف الإنجليزية."
+    },
+    "title_ar": {
+      "required": "العنوان باللغة العربية مطلوب.",
+      "pattern": "يسمح فقط بالحروف العربية."
+    },
+    "description_en": {
+      "required": "الوصف باللغة الإنجليزية مطلوب."
+    },
+    "description_ar": {
+      "required": "الوصف باللغة العربية مطلوب."
+    },
+    "course_id": {
+      "required": "اختيار الدورة مطلوب.",
+      "integer": "يجب أن يكون معرف الدورة رقمًا صحيحًا."
+    },
+    "active": {
+      "required": "الحالة مطلوبة."
+    },
+    "order": {
+      "required": "الترتيب مطلوب.",
+      "integer": "يجب أن يكون الترتيب رقمًا صحيحًا.",
+      "min": "يجب ألا يقل الترتيب عن 1."
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "meta_data": {
+    "title": "المستخدمين"
+  },
+  "page_header": {
+    "title": "المستخدمين",
+    "subtitle": "قائمة المستخدمين",
+    "actions": { "create": "إضافة مستخدم" }
+  },
+  "table": {
+    "id": "المعرف",
+    "first_name": "الاسم الاول",
+    "last_name": "الاسم الاخير",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "device_token": "معرف الجهاز",
+    "otp_code": "كود التحقق",
+    "preferred_lang": "اللغة المفضلة",
+    "phone": "رقم الهاتف",
+    "verified": "تم التحقق",
+    "order": "الترتيب",
+    "active": "الحالة",
+    "active_true": "نشط",
+    "active_false": "غير نشط",
+    "image": "الصورة",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث",
+    "is_featured": "مميز",
+    "translation": "اللغة",
+    "translations": "اللغات",
+    "updated_at": "تاريخ التحديث",
+    "created_at": "تاريخ الإنشاء",
+    "lat": "خط العرض",
+    "lng": "خط الطول",
+    "locales": "اللغات",
+    "filterFields": {
+      "search": {
+        "name": {
+          "placeholder": "ابحث بالاسم"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "featured": {
+          "label": "الحالة كمميز",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "name_en": {
+          "label": "الاسم (بالإنجليزية)",
+          "placeholder": "أدخل اسم الفرع بالإنجليزية"
+        },
+        "name_ar": {
+          "label": "الاسم (بالعربية)",
+          "placeholder": "أدخل اسم الفرع بالعربية"
+        },
+        "phone": {
+          "label": "رقم الهاتف",
+          "placeholder": "أدخل رقم الهاتف"
+        },
+        "email": {
+          "label": "البريد الإلكتروني",
+          "placeholder": "أدخل عنوان البريد الإلكتروني"
+        },
+        "password": {
+  "label": "كلمة المرور",
+  "placeholder": "أدخل كلمة المرور"
+},
+"password_confirmation": {
+  "label": "تأكيد كلمة المرور",
+  "placeholder": "أدخل تأكيد كلمة المرور"
+},
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "featured": {
+          "label": "التفعيل",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "order": {
+          "label": "الترتيب",
+          "placeholder": "أدخل الترتيب"
+        },
+        "image": {
+          "label": "الصورة"
+        }
+      }
+    }
+  },
+  "validations": {
+    "name_en": {
+      "required": "الاسم بالإنجليزية مطلوب.",
+      "pattern": "يسمح فقط بالحروف الإنجليزية."
+    },
+    "name_ar": {
+      "required": "الاسم بالعربية مطلوب.",
+      "pattern": "يسمح فقط بالحروف العربية."
+    },
+    "phone": {
+      "required": "رقم الهاتف مطلوب.",
+      "pattern": "يجب أن يكون رقم سعودي صحيح (05xxxxxxxx أو +9665xxxxxxxx)."
+    },
+    "email": {
+      "required": "البريد الإلكتروني مطلوب.",
+      "pattern": "يرجى إدخال بريد إلكتروني صحيح."
+    },
+    "active": {
+      "required": "حالة التفعيل مطلوبة."
+    },
+    "verified": {
+      "required": "حالة التحقق مطلوبة."
+    },
+    "image": {
+      "required": "الصورة مطلوبة.",
+      "pattern": "نوع الملف غير صالح.",
+      "size": "يجب ألا تتجاوز الصورة 5 ميجابايت."
+    }
+  }
+}

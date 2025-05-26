@@ -1,0 +1,43 @@
+{
+  "meta_data": {
+    "title": "FAQs"
+  },
+  "page_header": {
+    "title": "FAQs",
+    "subtitle": "Manage Frequently Asked Questions",
+    "actions": {
+      "create": "Add Question"
+    }
+  },
+  "table": {
+    "id": "ID",
+    "title": "Question",
+    "active": "Status",
+    "active_true": "Active",
+    "active_false": "Inactive",
+    "formFields": {
+      "title_en": {
+        "label": "Question (English)",
+        "placeholder": "Enter question in English"
+      },
+      "title_ar": {
+        "label": "Question (Arabic)",
+        "placeholder": "Enter question in Arabic"
+      },
+      "active": {
+        "label": "Status"
+      }
+    }
+  },
+  "validations": {
+    "title_en": {
+      "required": "English question is required."
+    },
+    "title_ar": {
+      "required": "Arabic question is required."
+    },
+    "active": {
+      "required": "Status is required."
+    }
+  }
+}

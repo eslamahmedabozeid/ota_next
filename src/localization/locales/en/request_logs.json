@@ -1,0 +1,35 @@
+{
+  "meta_data": {
+    "title": "Request Logs"
+  },
+  "page_header": {
+    "title": "Request Logs",
+    "subtitle": "All Requests History",
+    "actions": {
+      "view": "View Details"
+    }
+  },
+  "table": {
+    "id": "ID",
+    "requestId": "Request ID",
+    "status": "Status",
+    "status_true": "Active",
+    "status_false": "Inactive",
+    "statusLabel": "Status Label",
+    "notes": "Notes",
+    "createdAt": "Created At",
+    "createdBy": "Created By",
+    "actions": "Actions"
+  },
+  "validations": {
+    "requestId": {
+      "required": "Request ID is required."
+    },
+    "status": {
+      "required": "Status is required."
+    },
+    "createdAt": {
+      "required": "Created date is required."
+    }
+  }
+}

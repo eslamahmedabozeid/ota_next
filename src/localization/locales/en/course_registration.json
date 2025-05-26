@@ -1,0 +1,173 @@
+{
+    "meta_data": {
+      "title": "Course Registrations"
+    },
+    "page_header": {
+      "title": "Course Registrations",
+      "subtitle": "Manage registrations submitted for courses",
+      "actions": {
+        "create": "Add Registration"
+      }
+    },
+    "table": {
+      "id": "ID",
+      "user_name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "national_id_number": "National ID",
+      "course": "Course",
+      "course_id": "Course",
+      "type": "Registration Type",
+      "employees_number": "Employees Number",
+      "message": "Message",
+      "status": "Status",
+      "status_new": "New",
+      "created_at": "Created At",
+      "updated_at": "Updated At",
+      "status_approved": "Approved",
+      "status_rejected": "Rejected",
+      "thumbnail": "Course Thumbnail",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "title": "Title",
+      "short_info": "Short Info",
+      "details": "Details",
+      "slug": "Slug",
+      "category_id": "Category",
+      "level_id": "Level",
+      "gender": "Gender",
+      "name": "Title",
+      "creator": "Creator",
+      "duration": "Duration",
+      "category": "Category",
+      "course_title": "Course Title",
+      "available_users_num": "Available Seats",
+      "registered_users": "Registered Users",
+      "duration_type": "Duration Type",
+      "duration_value": "Duration",
+      "branches": "Branches",
+      "available_dates": "Available Dates",
+      "images": "Gallery",
+      "brochure": "Brochure Link",
+      "brief_video": "Brief Video Link",
+      "is_featured": "Featured",
+      "active": "Status",
+      "level":" Level",
+      "created_by": "Created By",
+      "target": "Target Audience",
+
+      "verified": "Verified",
+
+      "active_true": "Active",
+      "active_false": "Inactive",
+
+      "translation": "Language",
+      "translations": "Languages",
+      "locales": "Available Languages",
+      "filterFields": {
+        "search": {
+          "user_name": {
+            "placeholder": "Search by name"
+          }
+        },
+        "sidebarFilters": {
+          "status": {
+            "label": "Status",
+            "placeholder": "Select status",
+            "options": [
+              { "label": "New", "value": "new" },
+              { "label": "Approved", "value": "approved" },
+              { "label": "Rejected", "value": "rejected" }
+            ]
+          }
+        }
+      },
+      "formFields": {
+        "step_1": {
+          "available_dates": {
+      "label": "Available Dates",
+      "placeholder": "Select dates"
+    },
+          "user_name": {
+            "label": "Full Name",
+            "placeholder": "Enter your full name"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter your email"
+          },
+          "phone": {
+            "label": "Phone Number",
+            "placeholder": "Enter your phone number"
+          },
+          "national_id_number": {
+            "label": "National ID",
+            "placeholder": "Enter your national ID number"
+          },
+          "course": {
+            "label": "Course",
+            "placeholder": "Select a course"
+          },
+          "type": {
+            "label": "Registration Type",
+            "placeholder": "Select type",
+            "options": {
+              "individual": "Individual",
+              "business": "Business"
+            }
+          },
+          "employees_number": {
+            "label": "Employees Number",
+            "placeholder": "Enter number of employees"
+          },
+          "message": {
+            "label": "Message",
+            "placeholder": "Write your message"
+          },
+          "status": {
+            "label": "Status",
+            "placeholder": "Select status",
+            "options": {
+              "new": "New",
+              "approved": "Approved",
+              "rejected": "Rejected"
+            }
+          }
+        }
+      }
+    },
+    "validations": {
+      "user_name": {
+        "required": "Full name is required."
+      },
+      "email": {
+        "required": "Email is required.",
+        "pattern": "Enter a valid email address."
+      },
+      "phone": {
+        "required": "Phone number is required.",
+        "pattern": "Enter a valid Saudi phone number."
+      },
+      "national_id_number": {
+        "min": "National ID must be at least 9 digits.",
+        "max": "National ID must not exceed 20 digits."
+      },
+      "course_id": {
+        "required": "Course is required.",
+        "integer": "Course ID must be a number."
+      },
+      "type": {
+        "required": "Registration type is required."
+      },
+      "employees_number": {
+        "required": "Employees number is required.",
+        "required_if_business": "Employees number is required for business registration.",
+        "integer": "Employees number must be a whole number.",
+        "min": "Employees number must be at least 1."
+      },
+      "status": {
+        "required": "Status is required."
+      }
+    }
+  }
+  

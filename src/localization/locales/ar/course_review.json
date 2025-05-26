@@ -1,0 +1,158 @@
+{
+  "meta_data": {
+    "title": "مراجعات الدورات"
+  },
+  "page_header": {
+    "title": "مراجعات الدورات",
+    "subtitle": "إدارة المراجعات التي تم إرسالها من المستخدمين",
+    "actions": {
+      "create": "إضافة مراجعة"
+    }
+  },
+  "table": {
+    "id": "المعرف",
+    "user_name": "الاسم الكامل",
+    "phone": "رقم الهاتف",
+    "email": "البريد الإلكتروني",
+    "image": "صورة المراجع",
+    "course": "الدورة",
+    "course_id": "الدورة",
+    "comment": "المراجعة",
+    "rate": "التقييم",
+    "status": "الحالة",
+    "status_published": "منشور",
+    "status_pending": "قيد المراجعة",
+    "status_rejected": "مرفوض",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث",
+    "title": "العنوان",
+    "short_info": "معلومات مختصرة",
+    "details": "التفاصيل",
+    "slug": "المُعرف النصي",
+    "category_id": "الفئة",
+    "level_id": "المستوى",
+    "type": "النوع",
+    "gender": "الجنس",
+    "name": "العنوان",
+    "creator": "المنشئ",
+    "duration": "المدة",
+    "category": "الفئة",
+    "available_users_num": "المقاعد المتاحة",
+    "registered_users": "المستخدمون المسجلون",
+    "duration_type": "نوع المدة",
+    "duration_value": "المدة",
+    "branches": "الفروع",
+    "available_dates": "التواريخ المتاحة",
+    "level": "المستوى",
+    "created_by": "تم إنشاؤه بواسطة",
+    "thumbnail": "الصورة المصغرة",
+    "images": "معرض الصور",
+    "target": "الجمهور المستهدف",
+
+    "verified": "مؤكد",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث",
+    "brochure": "رابط الكتيب",
+    "brief_video": "رابط الفيديو المختصر",
+    "is_featured": "مميز",
+    "active": "الحالة",
+    "active_true": "مفتوح",
+    "active_false": "مغلق",
+
+    "translation": "اللغة",
+    "translations": "اللغات",
+    "locales": "اللغات المتوفرة",
+    "filterFields": {
+      "search": {
+        "user_name": {
+          "placeholder": "ابحث بالاسم"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "منشور", "value": "published" },
+            { "label": "قيد المراجعة", "value": "pending" },
+            { "label": "مرفوض", "value": "rejected" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "user_name": {
+          "label": "الاسم الكامل",
+          "placeholder": "أدخل الاسم الكامل"
+        },
+        "phone": {
+          "label": "رقم الهاتف",
+          "placeholder": "أدخل رقم الهاتف"
+        },
+        "email": {
+          "label": "البريد الإلكتروني",
+          "placeholder": "أدخل البريد الإلكتروني"
+        },
+        "image": {
+          "label": "رابط الصورة",
+          "placeholder": "الصق رابط الصورة"
+        },
+        "course": {
+          "label": "الدورة",
+          "placeholder": "اختر الدورة المرتبطة"
+        },
+        "comment": {
+          "label": "المراجعة",
+          "placeholder": "اكتب مراجعتك"
+        },
+        "rate": {
+          "label": "التقييم",
+          "placeholder": "أدخل التقييم (من 1 إلى 5)"
+        },
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": {
+            "published": "منشور",
+            "pending": "قيد المراجعة",
+            "rejected": "مرفوض"
+          }
+        }
+      }
+    }
+  },
+  "validations": {
+    "user_name": {
+      "required": "الاسم الكامل مطلوب."
+    },
+    "phone": {
+      "required": "رقم الهاتف مطلوب.",
+      "pattern": "يرجى إدخال رقم هاتف صحيح."
+    },
+    "email": {
+      "required": "البريد الإلكتروني مطلوب.",
+      "pattern": "يرجى إدخال بريد إلكتروني صحيح."
+    },
+    "image": {
+      "required": "رابط الصورة مطلوب.",
+      "pattern": "يرجى إدخال رابط صورة صحيح."
+    },
+    "course_id": {
+      "required": "اختيار الدورة مطلوب.",
+      "integer": "يجب أن يكون معرف الدورة رقماً صحيحاً."
+    },
+    "comment": {
+      "required": "المراجعة مطلوبة."
+    },
+    "rate": {
+      "required": "التقييم مطلوب.",
+      "min": "أقل تقييم هو 1.",
+      "max": "أعلى تقييم هو 5.",
+      "integer": "يجب أن يكون التقييم عدداً صحيحاً."
+    },
+    "status": {
+      "required": "الحالة مطلوبة."
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "meta_data": {
+    "title": "تسجيلات الدورات"
+  },
+  "page_header": {
+    "title": "تسجيلات الدورات",
+    "subtitle": "إدارة التسجيلات المقدمة للدورات",
+    "actions": {
+      "create": "إضافة تسجيل"
+    }
+  },
+  "table": {
+    "id": "المعرف",
+    "user_name": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الجوال",
+    "national_id_number": "رقم الهوية الوطنية",
+    "course": "الدورة",
+    "course_id": "الدورة",
+    "type": "نوع التسجيل",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث",
+    "employees_number": "عدد الموظفين",
+    "message": "الرسالة",
+    "status": "الحالة",
+    "status_new": "جديد",
+    "status_approved": "مقبول",
+    "status_rejected": "مرفوض",
+    "thumbnail": "صورة الدورة",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث",
+    "title": "العنوان",
+    "short_info": "معلومات مختصرة",
+    "details": "التفاصيل",
+    "slug": "المُعرف النصي",
+    "category_id": "الفئة",
+    "level_id": "المستوى",
+    "gender": "الجنس",
+    "name": "العنوان",
+    "creator": "المنشئ",
+    "duration": "المدة",
+    "category": "الفئة",
+    "available_users_num": "المقاعد المتاحة",
+    "registered_users": "المستخدمون المسجلون",
+    "duration_type": "نوع المدة",
+    "duration_value": "المدة",
+    "branches": "الفروع",
+    "available_dates": "التواريخ المتاحة",
+    "level": "المستوى",
+    "created_by": "تم إنشاؤه بواسطة",
+    "images": "معرض الصور",
+    "target": "الجمهور المستهدف",
+"course_title": "عنوان الدورة",
+    "verified": "مؤكد",
+
+    "brochure": "رابط الكتيب",
+    "brief_video": "رابط الفيديو المختصر",
+    "is_featured": "مميز",
+    "active": "الحالة",
+    "active_true": "مفتوح",
+    "active_false": "مغلق",
+
+    "translation": "اللغة",
+    "translations": "اللغات",
+    "locales": "اللغات المتوفرة",
+    "filterFields": {
+      "search": {
+        "user_name": {
+          "placeholder": "ابحث بالاسم"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "جديد", "value": "new" },
+            { "label": "مقبول", "value": "approved" },
+            { "label": "مرفوض", "value": "rejected" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "available_dates": {
+          "label": "التواريخ المتاحة",
+          "placeholder": "اختر التواريخ"
+        },
+        "user_name": {
+          "label": "الاسم الكامل",
+          "placeholder": "أدخل اسمك الكامل"
+        },
+        "email": {
+          "label": "البريد الإلكتروني",
+          "placeholder": "أدخل بريدك الإلكتروني"
+        },
+        "phone": {
+          "label": "رقم الجوال",
+          "placeholder": "أدخل رقم الجوال"
+        },
+        "national_id_number": {
+          "label": "رقم الهوية الوطنية",
+          "placeholder": "أدخل رقم الهوية الوطنية"
+        },
+        "course": {
+          "label": "الدورة",
+          "placeholder": "اختر الدورة"
+        },
+        "type": {
+          "label": "نوع التسجيل",
+          "placeholder": "اختر نوع التسجيل",
+          "options": {
+            "individual": "فردي",
+            "business": "شركة"
+          }
+        },
+        "employees_number": {
+          "label": "عدد الموظفين",
+          "placeholder": "أدخل عدد الموظفين"
+        },
+        "message": {
+          "label": "الرسالة",
+          "placeholder": "اكتب رسالتك"
+        },
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": {
+            "new": "جديد",
+            "approved": "مقبول",
+            "rejected": "مرفوض"
+          }
+        }
+      }
+    }
+  },
+  "validations": {
+    "user_name": {
+      "required": "الاسم الكامل مطلوب."
+    },
+    "email": {
+      "required": "البريد الإلكتروني مطلوب.",
+      "pattern": "يرجى إدخال بريد إلكتروني صالح."
+    },
+    "phone": {
+      "required": "رقم الجوال مطلوب.",
+      "pattern": "يرجى إدخال رقم جوال سعودي صالح."
+    },
+    "national_id_number": {
+      "min": "يجب ألا يقل رقم الهوية عن 9 أرقام.",
+      "max": "يجب ألا يتجاوز رقم الهوية 20 رقمًا."
+    },
+    "course_id": {
+      "required": "اختيار الدورة مطلوب.",
+      "integer": "يجب أن يكون معرف الدورة رقمًا صحيحًا."
+    },
+    "type": {
+      "required": "نوع التسجيل مطلوب."
+    },
+    "employees_number": {
+      "required": "عدد الموظفين مطلوب.",
+      "required_if_business": "عدد الموظفين مطلوب إذا كان نوع التسجيل شركة.",
+      "integer": "عدد الموظفين يجب أن يكون رقمًا صحيحًا.",
+      "min": "عدد الموظفين يجب أن يكون على الأقل 1."
+    },
+    "status": {
+      "required": "الحالة مطلوبة."
+    }
+  }
+}

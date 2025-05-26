@@ -1,0 +1,85 @@
+{
+  "page_header": {
+    "title": "الصفحات الثابتة",
+    "subtitle": "إدارة محتوى الصفحات الثابتة",
+    "actions": {
+      "create": "إضافة صفحة"
+    }
+  },
+  "meta_data": {
+    "title": "إدارة الصفحات الثابتة"
+  },
+  "table": {
+    "id": "المعرف",
+    "slug": "المُعرّف النصي (Slug)",
+    "name": "الاسم",
+    "title": "العنوان",
+    "sub_title": "العنوان الفرعي",
+    "details": "المحتوى",
+    "action_button_title": "نص الزر",
+    "main_image": "الصورة الرئيسية",
+    "image": "صورة إضافية",
+    "video": "فيديو",
+    "view_video": "عرض الفيديو",
+    "actions": {
+      "edit": "تعديل",
+      "view": "عرض",
+      "delete": "حذف"
+    },
+    "formFields": {
+      "slug": {
+        "label": "المُعرّف النصي (Slug)",
+        "placeholder": "مثال: about-us"
+      },
+      "name_en": {
+        "label": "الاسم (بالإنجليزية)",
+        "placeholder": "أدخل الاسم بالإنجليزية"
+      },
+      "name_ar": {
+        "label": "الاسم (بالعربية)",
+        "placeholder": "أدخل الاسم بالعربية"
+      },
+      "title_en": {
+        "label": "العنوان (بالإنجليزية)",
+        "placeholder": "أدخل العنوان بالإنجليزية"
+      },
+      "title_ar": {
+        "label": "العنوان (بالعربية)",
+        "placeholder": "أدخل العنوان بالعربية"
+      },
+      "sub_title_en": {
+        "label": "العنوان الفرعي (بالإنجليزية)",
+        "placeholder": "أدخل العنوان الفرعي بالإنجليزية"
+      },
+      "sub_title_ar": {
+        "label": "العنوان الفرعي (بالعربية)",
+        "placeholder": "أدخل العنوان الفرعي بالعربية"
+      },
+      "details_en": {
+        "label": "المحتوى (بالإنجليزية)",
+        "placeholder": "أدخل محتوى الصفحة بالإنجليزية"
+      },
+      "details_ar": {
+        "label": "المحتوى (بالعربية)",
+        "placeholder": "أدخل محتوى الصفحة بالعربية"
+      },
+      "action_button_title_en": {
+        "label": "نص الزر (بالإنجليزية)",
+        "placeholder": "أدخل نص الزر بالإنجليزية"
+      },
+      "action_button_title_ar": {
+        "label": "نص الزر (بالعربية)",
+        "placeholder": "أدخل نص الزر بالعربية"
+      },
+      "main_image": {
+        "label": "الصورة الرئيسية"
+      },
+      "image": {
+        "label": "صورة إضافية"
+      },
+      "video": {
+        "label": "رابط الفيديو"
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "meta_data": {
+    "title": "Branches"
+  },
+  "page_header": {
+    "title": "Branches",
+    "subtitle": "Your branches",
+    "actions": { "create": "Add Branch" }
+  },
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "order": "Order",
+    "active": "Status",
+    "active_true": "Open",
+    "active_false": "Closed",
+    "image": "Image",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "is_featured": "Featured",
+    "translation":"Language",
+    "translations":"Languages",
+    "lat": "Latitude",
+    "lng": "Longitude",
+    "locales": "Locales",
+    "filterFields": {
+      "search": {
+        "name": {
+          "placeholder": "Search by name"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "name_en": {
+          "label": "Name (English)",
+          "placeholder": "Enter the branch name in English"
+        },
+        "name_ar": {
+          "label": "Name (Arabic)",
+          "placeholder": "Enter the branch name in Arabic"
+        },
+        "lat": {
+          "label": "Latitude",
+          "placeholder": "Enter the latitude"
+        },
+        "lng": {
+          "label": "Longitude",
+          "placeholder": "Enter the longitude"
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "featured": {
+          "label": "Featured Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "order": {
+          "label": "Order",
+          "placeholder": "Enter the order"
+        },
+        "image": {
+          "label": "Image"
+        }
+      }
+    }
+  },
+  "validations": {
+    "name_en": {
+      "required": "English name is required.",
+      "pattern": "Only English letters are allowed."
+    },
+    "name_ar": {
+      "required": "Arabic name is required.",
+      "pattern": "Only Arabic letters are allowed."
+    },
+    "active": {
+      "required": "Status is required."
+    },
+    "latitude": {
+      "required": "Latitude is required.",
+      "range": "Latitude must be between -90 and 90."
+    },
+    "longitude": {
+      "required": "Longitude is required.",
+      "range": "Longitude must be between -180 and 180."
+    },
+    "order": {
+      "pattern": "Please enter a valid number for order.",
+      "integer": "Order must be an integer.",
+      "min": "Order must be at least 1."
+    },
+    "image": {
+      "required": "Image is required.",
+      "pattern": "Invalid file type.",
+      "size": "Image must be smaller than 5MB."
+    }
+  }
+}

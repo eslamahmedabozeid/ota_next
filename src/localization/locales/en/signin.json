@@ -1,0 +1,42 @@
+{
+  "meta_data": {
+    "title": "Sign In"
+  },
+  "title": "Welcome Back!",
+  "subtitle": "Get in to your account.",
+  "intro": {
+  "title": "Experience Unforgettable Journeys with OTA",
+  "subtitle": "Your Satisfaction is Our Top Priority – Discover the Best of Arabia with Us",
+  "description": "At OTA, we believe every journey should be as remarkable as the destination itself. With a deep love for Arabian culture and landscapes, our passionate team curates top-rated tours and travel packages that combine adventure, comfort, and authenticity.",
+  "about_title": "OTA",
+  "about_subtitle": "Crafting Memorable Experiences Across Arabia"
+},
+  "form": {
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+
+    "password": {
+      "label": "Password",
+      "placeholder": "Password"
+    },
+    "SubmitBtnComponent": { "value": "Log In" }
+  },
+
+  "validations": {
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "password": {
+      "required": "Password is required.",
+      "minLength": "Password Min length is 8 char."
+    }
+  },
+
+  "toasts": {
+    "login_success": "Logged in Successfully!",
+    "login_error": "Invalid Credentials."
+  }
+}

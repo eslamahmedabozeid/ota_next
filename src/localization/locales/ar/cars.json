@@ -1,0 +1,111 @@
+{
+    "page_header": {
+        "title": "السيارات",
+        "subtitle": "إدارة سيارات السفر",
+        "actions": {
+            "create": "إضافة سيارة"
+        }
+    },
+    "meta_data": {
+        "title": "إدارة السيارات"
+    },
+    "table": {
+        "title": "العنوان",
+        "seats_num": "عدد المقاعد",
+        "bags_num": "عدد الشنط",
+        "price_per_day": "السعر في اليوم",
+        "automatic": "أوتوماتيك",
+        "km_rental": "إيجار بالكيلومتر",
+        "category": "الفئة",
+        "yes": "نعم",
+        "no": "لا",
+        "true": "نعم",
+        "false": "لا",
+        "formFields": {
+            "title_en": {
+                "label": "الاسم (إنجليزي)",
+                "placeholder": "أدخل الاسم بالإنجليزية"
+            },
+            "title_ar": {
+                "label": "الاسم (عربي)",
+                "placeholder": "أدخل الاسم بالعربية"
+            },
+            "category": {
+                "label": "الفئة",
+                "placeholder": "اختر فئة"
+            },
+            "seats_num": {
+                "label": "عدد المقاعد",
+                "placeholder": "أدخل عدد المقاعد"
+            },
+            "bags_num": {
+                "label": "عدد الشنط",
+                "placeholder": "أدخل عدد الشنط"
+            },
+            "price_per_day": {
+                "label": "السعر في اليوم",
+                "placeholder": "أدخل السعر في اليوم"
+            },
+            "automatic": {
+                "label": "أوتوماتيك؟"
+            },
+            "km_rental": {
+                "label": "إيجار بالكيلومتر؟"
+            },
+            "active": {
+                "label": "مفعل؟"
+            }
+        }
+    },
+    "validations": {
+        "title": {
+            "en": {
+                "required": "الاسم بالإنجليزية مطلوب"
+            },
+            "ar": {
+                "required": "الاسم بالعربية مطلوب"
+            }
+        },
+        "description": {
+            "en": {
+                "required": "الوصف بالإنجليزية مطلوب"
+            },
+            "ar": {
+                "required": "الوصف بالعربية مطلوب"
+            }
+        },
+        "country": {
+            "required": "الدولة مطلوبة"
+        },
+        "city": {
+            "required": "المدينة مطلوبة"
+        },
+        "tour": {
+            "required": "الجولة مطلوبة"
+        },
+        "category": {
+            "required": "الفئة مطلوبة"
+        },
+        "address": {
+            "required": "العنوان مطلوب"
+        },
+        "start_data": {
+            "invalid": "تاريخ البدء مطلوب"
+        },
+        "end_data": {
+            "invalid": "تاريخ الانتهاء مطلوب"
+        },
+        "price": {
+            "invalid": "السعر يجب أن يكون رقمًا صالحًا يحتوي على منزلتين عشريتين كحد أقصى"
+        },
+        "seats_num": {
+            "required": "عدد المقاعد مطلوب"
+        },
+        "bags_num": {
+            "required": "عدد الشنط مطلوب"
+        },
+        "price_per_day": {
+            "invalid": "السعر في اليوم يجب أن يكون رقمًا صالحًا"
+        }
+    }
+}

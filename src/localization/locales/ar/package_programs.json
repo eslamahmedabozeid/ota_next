@@ -1,0 +1,88 @@
+{
+   "page_header": {
+        "title": "البرامج",
+        "subtitle": "ادارة البرامج",
+        "actions": {
+            "create": "إضافة برنامج"
+        }
+    },
+    "meta_data": {
+        "title": "ادارة البرامج"
+    },
+  "table": {
+    "id": "المعرف",
+    "title": "العنوان",
+    "order_number": "رقم الترتيب",
+    "package_id": "الباقة",
+    "lat": "خط العرض",
+    "lng": "خط الطول",
+    "thumbnail": "الصورة المصغرة",
+    "formFields": {
+      "title_en": {
+        "label": "العنوان (بالإنجليزية)",
+        "placeholder": "أدخل العنوان بالإنجليزية"
+      },
+      "title_ar": {
+        "label": "العنوان (بالعربية)",
+        "placeholder": "أدخل العنوان بالعربية"
+      },
+      "description_en": {
+        "label": "الوصف (بالإنجليزية)",
+        "placeholder": "أدخل الوصف بالإنجليزية"
+      },
+      "description_ar": {
+        "label": "الوصف (بالعربية)",
+        "placeholder": "أدخل الوصف بالعربية"
+      },
+      "package": {
+        "label": "الباقة",
+        "placeholder": "اختر باقة"
+      },
+      "lat": {
+        "label": "خط العرض",
+        "placeholder": "أدخل خط العرض"
+      },
+      "lng": {
+        "label": "خط الطول",
+        "placeholder": "أدخل خط الطول"
+      },
+      "order_number": {
+        "label": "رقم الترتيب",
+        "placeholder": "أدخل رقم الترتيب"
+      },
+      "image": {
+        "label": "الصورة"
+      }
+    }
+  },
+  "validations": {
+    "title": {
+      "en": {
+        "required": "العنوان الإنجليزي مطلوب"
+      },
+      "ar": {
+        "required": "العنوان العربي مطلوب"
+      }
+    },
+    "description": {
+      "en": {
+        "required": "الوصف الإنجليزي مطلوب"
+      },
+      "ar": {
+        "required": "الوصف العربي مطلوب"
+      }
+    },
+    "package": {
+      "required": "اختيار الباقة مطلوب"
+    },
+    "lat": {
+      "required": "خط العرض مطلوب"
+    },
+    "lng": {
+      "required": "خط الطول مطلوب"
+    }
+  },
+  "meta_data": {
+    "title": "برامج الباقات"
+  }
+}

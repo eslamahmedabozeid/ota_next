@@ -1,0 +1,114 @@
+{
+    "page_header": {
+        "title": "Cars",
+        "subtitle": "Manage travel Cars",
+        "actions": {
+            "create": "Add Cars"
+        }
+    },
+    "meta_data": {
+        "title": "Manage Cars"
+    },
+    "table": {
+        "title": "Title",
+        "seats_num": "Number of Seats",
+        "bags_num": "Number of Bags",
+        "price_per_day": "Price Per Day",
+        "automatic": "Automatic",
+        "km_rental": "KM Rental",
+        "category": "category",
+        "yes": "Yes",
+        "no": "No",
+        "true": "true",
+        "false": "false",
+        "formFields": {
+            "title_en": {
+                "label": "Title (English)",
+                "placeholder": "Enter title in English"
+            },
+            "title_ar": {
+                "label": "Title (Arabic)",
+                "placeholder": "Enter title in Arabic"
+            },
+            "category": {
+                "label": "Category",
+                "placeholder": "Select a category"
+            },
+            "seats_num": {
+                "label": "Number of Seats",
+                "placeholder": "Enter number of seats"
+            },
+            "bags_num": {
+                "label": "Number of Bags",
+                "placeholder": "Enter number of bags"
+            },
+            "price_per_day": {
+                "label": "Price Per Day",
+                "placeholder": "Enter price per day"
+            },
+            "automatic": {
+                "label": "Automatic?"
+            },
+            "km_rental": {
+                "label": "KM Rental?"
+            },
+            "active": {
+                "label": "Is Active?"
+            }
+        }
+
+    },
+    "validations": {
+        "title": {
+            "en": {
+                "required": "English title is required"
+            },
+            "ar": {
+                "required": "Arabic title is required"
+            }
+        },
+        "description": {
+            "en": {
+                "required": "English description is required"
+            },
+            "ar": {
+                "required": "Arabic description is required"
+            }
+        },
+        "country": {
+            "required": "Country is required"
+        },
+        "city": {
+            "required": "City is required"
+        },
+        "tour": {
+            "required": "Tour is required"
+        },
+        "category": {
+            "required": "Category is required"
+        },
+        "address": {
+            "required": "Address is required"
+        },
+        "start_data": {
+            "invalid": "Start date is required"
+        },
+        "end_data": {
+            "invalid": "End date is required"
+        },
+        "price": {
+            "invalid": "Price must be a valid number with up to 2 decimal places"
+        },
+        "seats_num": {
+            "required": "Number of seats is required"
+        },
+        "bags_num": {
+            "required": "Number of bags is required"
+        },
+        "price_per_day": {
+            "invalid": "Price per day must be a valid number"
+        }
+
+    }
+
+}

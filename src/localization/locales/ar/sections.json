@@ -1,0 +1,47 @@
+{
+  "meta_data": {
+    "title": "إدارة الأقسام"
+  },
+  "page_header": {
+    "title": "إدارة الأقسام",
+    "subtitle": "الأقسام"
+  },
+  "page_slugs": {
+    "home": "الرئيسية",
+    "home-business": "الرئيسية للأعمال",
+    "about-us": "من نحن",
+    "courses-diploma": "الدورات والدبلومات",
+    "programs": "البرامج"
+  },
+  "page_types": {
+    "individual": "فردي",
+    "business": "أعمال"
+  },
+  "form": {
+    "main_section": "القسم الرئيسي",
+    "sub_sections": "الأقسام الفرعية",
+    "sub_section": "قسم فرعي",
+    "back_to_pages": "العودة إلى الصفحات",
+    "page": "الصفحة",
+    "type": "النوع",
+    "image": "الصورة",
+    "title": "العنوان",
+    "order_number": "رقم الترتيب",
+    "add_sub_section": "إضافة قسم فرعي",
+    "Delete": "حذف",
+    "subtitle": "العنوان الفرعي",
+    "details": "التفاصيل",
+    "active": "نشط",
+    "save_changes": "حفظ التغييرات",
+    "saving": "جاري الحفظ...",
+    "required": "مطلوب",
+    "success": "تم تحديث القسم بنجاح",
+    "error": "فشل تحديث القسم"
+  },
+  "validation": {
+    "title_required": "العنوان مطلوب",
+    "subtitle_required": "العنوان الفرعي مطلوب",
+    "details_required": "التفاصيل مطلوبة",
+    "image_required": "الصورة مطلوبة"
+  }
+}

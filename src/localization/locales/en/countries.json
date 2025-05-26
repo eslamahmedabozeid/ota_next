@@ -1,0 +1,46 @@
+{
+    "page_header": {
+    "title": "Countries",
+    "subtitle": "your Countries",
+    "actions": { "create": "Create country" }
+  },
+  "meta_data": {
+    "title": "Countries Management"
+  },
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "image": "Image",
+    "active": "Status",
+    "tags": "Tags",
+    "actions": {
+      "edit": "Edit",
+      "view": "View",
+      "delete": "Delete"
+    },
+    "formFields": {
+      "name_en": {
+        "label": "Name (English)",
+        "placeholder": "Enter country name in English"
+      },
+      "name_ar": {
+        "label": "Name (Arabic)",
+        "placeholder": "Enter country name in Arabic"
+      },
+      "image": {
+        "label": "Country Image"
+      },
+      "tags_en": {
+        "label": "Tags (English)",
+        "placeholder": "Enter tags in English separated by comma"
+      },
+      "tags_ar": {
+        "label": "Tags (Arabic)",
+        "placeholder": "Enter tags in Arabic separated by comma"
+      },
+      "active": {
+        "label": "Is Active?"
+      }
+    }
+  }
+}

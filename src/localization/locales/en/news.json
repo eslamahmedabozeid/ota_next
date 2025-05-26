@@ -1,0 +1,131 @@
+{
+  "meta_data": {
+    "title": "News"
+  },
+  "page_header": {
+    "title": "News",
+    "subtitle": "Manage your news articles",
+    "actions": {
+      "create": "Add News"
+    }
+  },
+  "table": {
+    "id": "ID",
+    "slug": "Slug",
+    "title": "Title",
+    "short_info": "Short Info",
+    "details": "Details",
+    "thumbnail": "Thumbnail",
+    "images": "Gallery Images",
+    "is_featured": "Featured",
+    "featured": "Featured",
+    "active": "Status",
+    "created_at": "Created At",
+    "updated_at": "Updated At",
+    "formFields": {
+      "step_1": {
+        "title_en": {
+          "label": "Title (English)",
+          "placeholder": "Enter the English title"
+        },
+        "title_ar": {
+          "label": "Title (Arabic)",
+          "placeholder": "Enter the Arabic title"
+        },
+        "short_info_en": {
+          "label": "Short Info (English)",
+          "placeholder": "Enter a short summary in English"
+        },
+        "short_info_ar": {
+          "label": "Short Info (Arabic)",
+          "placeholder": "Enter a short summary in Arabic"
+        },
+        "details_en": {
+          "label": "Details (English)",
+          "placeholder": "Enter full article content in English"
+        },
+        "details_ar": {
+          "label": "Details (Arabic)",
+          "placeholder": "Enter full article content in Arabic"
+        },
+        "slug": {
+          "label": "Slug",
+          "placeholder": "Enter a URL-friendly slug"
+        },
+        "thumbnail": {
+          "label": "Thumbnail"
+        },
+        "images": {
+          "label": "Gallery Images"
+        },
+        "featured": {
+          "label": "Featured Status",
+          "placeholder": "Select featured status",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "1"
+            },
+            {
+              "label": "No",
+              "value": "0"
+            }
+          ]
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            {
+              "label": "Active",
+              "value": "1"
+            },
+            {
+              "label": "Inactive",
+              "value": "0"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "validations": {
+    "title_en": {
+      "required": "English title is required.",
+      "pattern": "Only English characters are allowed."
+    },
+    "title_ar": {
+      "required": "Arabic title is required.",
+      "pattern": "Only Arabic characters are allowed."
+    },
+    "short_info_en": {
+      "required": "English short info is required."
+    },
+    "short_info_ar": {
+      "required": "Arabic short info is required."
+    },
+    "details_en": {
+      "required": "English details are required."
+    },
+    "details_ar": {
+      "required": "Arabic details are required."
+    },
+    "slug": {
+      "required": "Slug is required.",
+      "pattern": "Slug must be lowercase and dash-separated."
+    },
+    "thumbnail": {
+      "required": "Thumbnail is required.",
+      "pattern": "Invalid file type or URL."
+    },
+    "images": {
+      "url": "Each image must be a valid URL."
+    },
+    "is_featured": {
+      "required": "Featured status is required."
+    },
+    "active": {
+      "required": "Active status is required."
+    }
+  }
+}

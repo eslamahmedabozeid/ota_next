@@ -1,0 +1,65 @@
+{
+  "page_header": {
+    "title": "أنواع التأشيرات",
+    "subtitle": "إدارة أنواع التأشيرات",
+    "actions": {
+      "create": "إضافة نوع تأشيرة"
+    }
+  },
+  "meta_data": {
+    "title": "إدارة أنواع التأشيرات"
+  },
+  "table": {
+    "id": "المعرف",
+    "title": "الاسم",
+    "price": "السعر",
+    "processing_time": "مدة المعالجة",
+    "validity": "مدة الصلاحية",
+    "true": "نعم",
+    "false": "لا",
+    "formFields": {
+      "name_en": {
+        "label": "الاسم (إنجليزي)",
+        "placeholder": "أدخل الاسم بالإنجليزية"
+      },
+      "name_ar": {
+        "label": "الاسم (عربي)",
+        "placeholder": "أدخل الاسم بالعربية"
+      },
+      "price": {
+        "label": "السعر",
+        "placeholder": "أدخل السعر"
+      },
+      "processing_time": {
+        "label": "مدة المعالجة",
+        "placeholder": "أدخل مدة المعالجة"
+      },
+      "validity": {
+        "label": "مدة الصلاحية",
+        "placeholder": "أدخل مدة الصلاحية"
+      },
+      "active": {
+        "label": "مفعل؟"
+      }
+    }
+  },
+  "validations": {
+    "name": {
+      "en": {
+        "required": "الاسم بالإنجليزية مطلوب"
+      },
+      "ar": {
+        "required": "الاسم بالعربية مطلوب"
+      }
+    },
+    "price": {
+      "invalid": "السعر يجب أن يكون رقمًا صالحًا"
+    },
+    "processing_time": {
+      "required": "مدة المعالجة مطلوبة"
+    },
+    "validity": {
+      "required": "مدة الصلاحية مطلوبة"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+    "page_header": {
+        "title": "الشركاء",
+        "subtitle": "إدارة الشركاء",
+        "actions": {
+            "create": "إضافة شريك"
+        }
+    },
+    "meta_data": {
+        "title": "إدارة الشركاء"
+    },
+    "table": {
+        "id": "المعرف",
+        "name": "اسم الشريك",
+        "image": "الصورة",
+        "is_featured": "مميز؟",
+        "active": "الحالة",
+        "order_number": "ترتيب العرض",
+        "actions": {
+            "edit": "تعديل",
+            "view": "عرض",
+            "delete": "حذف"
+        },
+        "formFields": {
+            "name_en": {
+                "label": "اسم الشريك (بالإنجليزية)",
+                "placeholder": "ادخل اسم الشريك بالإنجليزية"
+            },
+            "name_ar": {
+                "label": "اسم الشريك (بالعربية)",
+                "placeholder": "ادخل اسم الشريك بالعربية"
+            },
+            "image": {
+                "label": "شعار الشريك"
+            },
+            "order_number": {
+                "label": "ترتيب العرض",
+                "placeholder": "ادخل رقم ترتيب العرض"
+            },
+            "is_featured": {
+                "label": "هل هو مميز؟"
+            },
+            "active": {
+                "label": "هل هو مفعل؟"
+            }
+        }
+    }
+}

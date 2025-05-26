@@ -1,0 +1,297 @@
+{
+  "meta_data": {
+    "title": "الدورات"
+  },
+  "page_header": {
+    "title": "الدورات",
+    "subtitle": "دوراتك التدريبية",
+    "actions": {
+      "create": "إضافة دورة"
+    }
+  },
+  "table": {
+    "id": "المعرف",
+    "title": "العنوان",
+    "short_info": "معلومات مختصرة",
+    "details": "التفاصيل",
+    "slug": "الرابط المختصر",
+    "category_id": "الفئة",
+    "level_id": "المستوى",
+    "type": "النوع",
+    "gender": "الجنس",
+    "name": "العنوان",
+    "creator": "المنشئ",
+    "duration": "المدة",
+    "category": "الفئة",
+    "available_users_num": "المقاعد المتاحة",
+    "registered_users": "المستخدمون المسجلون",
+    "duration_type": "نوع المدة",
+    "duration_value": "المدة",
+    "branches": "الفروع",
+    "available_dates": "التواريخ المتاحة",
+    "thumbnail": "الصورة المصغرة",
+    "images": "معرض الصور",
+    "brochure": "رابط الكتيب",
+    "brief_video": "رابط الفيديو التعريفي",
+    "is_featured": "مميز",
+    "active": "الحالة",
+    "level": "المستوى",
+    "created_by": "أنشئ بواسطة",
+    "target": "الفئة المستهدفة",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "verified": "موثق",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث",
+    "active_true": "نشط",
+    "active_false": "غير نشط",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث",
+    "translation": "اللغة",
+    "translations": "اللغات",
+    "locales": "اللغات المتاحة",
+    "filterFields": {
+      "search": {
+        "title": {
+          "placeholder": "البحث بالعنوان"
+        }
+      },
+      "sidebarFilters": {
+        "type": {
+          "options": {
+            "course": {
+              "label": "دورة"
+            },
+            "diploma": {
+              "label": "دبلوم"
+            },
+            "program": {
+              "label": "برنامج"
+            },
+            "training": {
+              "label": "تدريب"
+            },
+            "all": {
+              "label": "الكل"
+            }
+          }
+        },
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "featured": {
+          "label": "حالة التمييز",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "current": {
+          "label": "الحالة الحالية",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "title_en": {
+          "label": "العنوان (بالإنجليزية)",
+          "placeholder": "أدخل عنوان الدورة بالإنجليزية"
+        },
+        "title_ar": {
+          "label": "العنوان (بالعربية)",
+          "placeholder": "أدخل عنوان الدورة بالعربية"
+        },
+        "short_info_en": {
+          "label": "معلومات مختصرة (بالإنجليزية)",
+          "placeholder": "أدخل معلومات مختصرة بالإنجليزية"
+        },
+        "short_info_ar": {
+          "label": "معلومات مختصرة (بالعربية)",
+          "placeholder": "أدخل معلومات مختصرة بالعربية"
+        },
+        "details_en": {
+          "label": "التفاصيل (بالإنجليزية)",
+          "placeholder": "أدخل تفاصيل الدورة بالإنجليزية"
+        },
+        "details_ar": {
+          "label": "التفاصيل (بالعربية)",
+          "placeholder": "أدخل تفاصيل الدورة بالعربية"
+        },
+        "slug": {
+          "label": "الرابط المختصر",
+          "placeholder": "أدخل رابطاً مختصراً فريداً"
+        },
+        "category": {
+          "label": "الفئة",
+          "placeholder": "اختر الفئة"
+        },
+        "level": {
+          "label": "المستوى",
+          "placeholder": "اختر المستوى"
+        },
+        "type": {
+          "label": "نوع الدورة",
+          "placeholder": "اختر النوع"
+        },
+        "current": {
+          "label": "الحالة الحالية",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "gender": {
+          "label": "الجنس",
+          "placeholder": "اختر الجنس",
+          "options": [
+            { "label": "ذكر" },
+            { "label": "أنثى" },
+            { "label": "الكل" }
+          ]
+        },
+        "available_users_num": {
+          "label": "المقاعد المتاحة",
+          "placeholder": "أدخل عدد المقاعد المتاحة"
+        },
+        "registered_users": {
+          "label": "المستخدمون المسجلون",
+          "placeholder": "أدخل عدد المستخدمين المسجلين"
+        },
+        "duration_type": {
+          "label": "نوع المدة",
+          "placeholder": "اختر وحدة الوقت"
+        },
+        "duration_value": {
+          "label": "المدة",
+          "placeholder": "أدخل مدة الدورة"
+        },
+        "order": {
+          "label": "الترتيب",
+          "placeholder": "أدخل رقم الترتيب"
+        },
+        "branches": {
+          "label": "الفروع",
+          "placeholder": "اختر الفروع"
+        },
+        "available_dates": {
+          "label": "التواريخ المتاحة",
+          "placeholder": "اختر التواريخ"
+        },
+        "thumbnail": {
+          "label": "الصورة المصغرة"
+        },
+        "images": {
+          "label": "معرض الدورة"
+        },
+        "brochure": {
+          "label": "رابط الكتيب",
+          "placeholder": "أدخل رابط ملف الكتيب"
+        },
+        "brief_video": {
+          "label": "رابط الفيديو التعريفي",
+          "placeholder": "أدخل رابط الفيديو"
+        },
+        "featured": {
+          "label": "حالة التمييز",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر حالة الدورة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        }
+      }
+    }
+  },
+  "validations": {
+    "slug": {
+      "required": "الرابط المختصر مطلوب.",
+      "pattern": "يجب أن يكون الرابط المختصر أبجدياً رقمياً وفريداً."
+    },
+    "category": {
+      "required": "الفئة مطلوبة."
+    },
+    "available_users_num": {
+      "required": "عدد المقاعد المتاحة مطلوب.",
+      "integer": "يجب أن يكون عدد المقاعد رقماً صحيحاً."
+    },
+    "registered_users": {
+      "required": "عدد المستخدمين المسجلين مطلوب.",
+      "integer": "يجب أن يكون عدد المستخدمين المسجلين رقماً صحيحاً."
+    },
+    "duration_type": {
+      "required": "نوع المدة مطلوب."
+    },
+    "duration_value": {
+      "required": "المدة مطلوبة.",
+      "integer": "يجب أن تكون المدة رقماً صحيحاً."
+    },
+
+    "branches": {
+      "required": "يجب اختيار فرع واحد على الأقل.",
+      "integer": "يجب أن يكون الفرع رقماً صحيحاً."
+    },
+    "brochure": {
+      "url": "يجب أن يكون رابط الكتيب عنوان URL صالح."
+    },
+    "brief_video": {
+      "url": "يجب أن يكون رابط الفيديو عنوان URL صالح."
+    },
+    "order": {
+      "required": "حقل الترتيب مطلوب.",
+      "integer": "يجب أن يكون الترتيب رقماً صحيحاً."
+    },
+    "available_dates": {
+      "pattern": "يجب أن يكون التاريخ بتنسيق YYYY-MM-DD."
+    },
+    "gender": {
+      "required": "الجنس مطلوب."
+    },
+    "active": {
+      "required": "الحالة مطلوبة."
+    },
+    "title_en": {
+      "required": "العنوان بالإنجليزية مطلوب.",
+      "pattern": "يُسمح فقط بالحروف الإنجليزية."
+    },
+    "title_ar": {
+      "required": "العنوان بالعربية مطلوب.",
+      "pattern": "يُسمح فقط بالحروف العربية."
+    },
+    "short_info_en": {
+      "required": "المعلومات المختصرة بالإنجليزية مطلوبة.",
+      "pattern": "يُسمح فقط بالحروف الإنجليزية."
+    },
+    "short_info_ar": {
+      "required": "المعلومات المختصرة بالعربية مطلوبة.",
+      "pattern": "يُسمح فقط بالحروف العربية."
+    },
+    "details_en": {
+      "required": "التفاصيل بالإنجليزية مطلوبة.",
+      "pattern": "يُسمح فقط بالحروف الإنجليزية."
+    },
+    "details_ar": {
+      "required": "التفاصيل بالعربية مطلوبة.",
+      "pattern": "يُسمح فقط بالحروف العربية."
+    }
+  }
+}

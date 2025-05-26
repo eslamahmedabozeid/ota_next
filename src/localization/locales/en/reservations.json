@@ -1,0 +1,138 @@
+{
+  "page_header": {
+    "title": "Reservations",
+    "subtitle": "Manage reservation requests",
+    "actions": {
+      "create": "Add Reservation"
+    }
+  },
+  "meta_data": {
+    "title": "Manage Reservations"
+  },
+  "table": {
+    "id": "ID",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "type": "Type",
+    "country": "Country",
+    "visa_type": "Visa Type",
+    "total_price": "Total Price",
+    "statusColumns": "Status",
+    "is_paidColumns":"Is Paid",
+    "extra_fees": "Extra Fees",
+    "true":"true",
+    "false":"false",
+    "status": {
+      "options": {
+        "1": "New",
+        "2": "Pending",
+        "3": "Approved",
+        "4": "Processing",
+        "5": "Cancelled",
+        "6": "Refunded",
+        "7": "Completed",
+        "8": "Deleted"
+      }
+    },
+    "formFields": {
+      "first_name": {
+        "label": "First Name",
+        "placeholder": "Enter first name"
+      },
+      "last_name": {
+        "label": "Last Name",
+        "placeholder": "Enter last name"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter phone number"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter email"
+      },
+      "notes": {
+        "label": "Notes",
+        "placeholder": "Enter any notes"
+      },
+      "type": {
+        "label": "Request Type",
+        "placeholder": "Enter request type"
+      },
+      "sub_total": {
+        "label": "Sub Total",
+        "placeholder": "Enter sub total"
+      },
+      "extra_fees": {
+        "label": "Extra Fees",
+        "placeholder": "Enter extra fees"
+      },
+      "total_price": {
+        "label": "Total Price",
+        "placeholder": "Enter total price"
+      },
+      "country": {
+        "label": "Country",
+        "placeholder": "Select a country"
+      },
+      "visa_type": {
+        "label": "Visa Type",
+        "placeholder": "Select a visa type"
+      },
+      "status": {
+        "label": "Status",
+        "placeholder": "Select status",
+        "options": {
+          "new": "New",
+          "pending": "Pending",
+          "approved": "Approved",
+          "processing": "Processing",
+          "cancelled": "Cancelled",
+          "refunded": "Refunded",
+          "completed": "Completed",
+          "deleted": "Deleted"
+        }
+      },
+      "is_paid": {
+        "label": "Is Paid?"
+      }
+    }
+  },
+  "validations": {
+    "first_name": {
+      "required": "First name is required"
+    },
+    "last_name": {
+      "required": "Last name is required"
+    },
+    "phone": {
+      "required": "Phone number is required"
+    },
+    "email": {
+      "invalid": "Invalid email format"
+    },
+    "type": {
+      "required": "Request type is required"
+    },
+    "sub_total": {
+      "invalid": "Sub total must be a valid number"
+    },
+    "extra_fees": {
+      "invalid": "Extra fees must be a valid number"
+    },
+    "total_price": {
+      "invalid": "Total price must be a valid number"
+    },
+    "country": {
+      "required": "Country is required"
+    },
+    "visa_type": {
+      "required": "Visa type is required"
+    },
+    "status": {
+      "required": "Status is required"
+    }
+  }
+}

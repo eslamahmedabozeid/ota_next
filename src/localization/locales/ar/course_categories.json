@@ -1,0 +1,159 @@
+{
+  "meta_data": {
+    "title": "المستويات"
+  },
+  "page_header": {
+    "title": "المستويات",
+    "subtitle": "مستوياتك",
+    "actions": { "create": "إضافة مستوى" }
+  },
+  "table": {
+    "id": "المعرف",
+    "name": "الاسم",
+    "order": "الترتيب",
+    "active": "الحالة",
+    "active_true": "مفتوح",
+    "active_false": "مغلق",
+    "image": "الصورة",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث",
+    "is_featured": "مميز",
+    "translation": "اللغة",
+    "translations": "اللغات",
+    "target": "الفئة المستهدفة",
+    "type": "النوع",
+    "lat": "خط العرض",
+    "lng": "خط الطول",
+    "locales": "اللغات",
+    "filterFields": {
+      "search": { "name": { "placeholder": "ابحث بالاسم" } },
+      "sidebarFilters": {
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "type": {
+          "options": {
+            "course": {
+              "label": "دورة"
+            },
+            "diploma": {
+              "label": "دبلوم"
+            },
+            "program": {
+              "label": "برنامج"
+            },
+            "training": {
+              "label": "تدريب"
+            },
+            "all": {
+              "label": "الكل"
+            }
+          }
+        },
+        "target": {
+          "label": "الفئة المستهدفة",
+          "placeholder": "اختر الفئة المستهدفة",
+          "options": [
+            { "label": "أعمال", "value": "business" },
+            { "label": "أفراد", "value": "individual" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "name_en": {
+          "label": "الاسم (بالإنجليزية)",
+          "placeholder": "أدخل اسم المستوى بالإنجليزية"
+        },
+        "name_ar": {
+          "label": "الاسم (بالعربية)",
+          "placeholder": "أدخل اسم المستوى بالعربية"
+        },
+        "lat": {
+          "label": "خط العرض",
+          "placeholder": "أدخل خط العرض"
+        },
+        "lng": {
+          "label": "خط الطول",
+          "placeholder": "أدخل خط الطول"
+        },
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "featured": {
+          "label": "الحالة المميزة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        },
+        "type": {
+          "label": "النوع",
+          "placeholder": "اختر النوع",
+          "options": [
+            { "label": "دبلومة", "value": "diploma" },
+            { "label": "دورة", "value": "course" }
+          ]
+        },
+        "target": {
+          "label": "الفئة المستهدفة",
+          "placeholder": "اختر الفئة المستهدفة",
+          "options": [
+            { "label": "أعمال", "value": "business" },
+            { "label": "أفراد", "value": "individual" }
+          ]
+        },
+        "order": {
+          "label": "الترتيب",
+          "placeholder": "أدخل الترتيب"
+        },
+        "image": {
+          "label": "الصورة"
+        }
+      }
+    }
+  },
+  "validations": {
+    "name_en": {
+      "required": "الاسم بالإنجليزية مطلوب.",
+      "pattern": "يسمح فقط بالحروف الإنجليزية."
+    },
+    "name_ar": {
+      "required": "الاسم بالعربية مطلوب.",
+      "pattern": "يسمح فقط بالحروف العربية."
+    },
+    "active": {
+      "required": "الحالة مطلوبة."
+    },
+    "latitude": {
+      "required": "خط العرض مطلوب.",
+      "range": "يجب أن يكون خط العرض بين -90 و 90."
+    },
+    "longitude": {
+      "required": "خط الطول مطلوب.",
+      "range": "يجب أن يكون خط الطول بين -180 و 180."
+    },
+    "order": {
+      "pattern": "برجاء إدخال رقم صحيح للترتيب.",
+      "integer": "يجب أن يكون الترتيب عددًا صحيحًا.",
+      "min": "يجب أن يكون الترتيب على الأقل 1."
+    },
+    "image": {
+      "required": "الصورة مطلوبة.",
+      "pattern": "نوع الملف غير مسموح به.",
+      "size": "يجب أن يكون حجم الصورة أقل من 5MB."
+    }
+  }
+}

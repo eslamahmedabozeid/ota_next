@@ -1,0 +1,63 @@
+{
+  "meta_data": {
+    "title": "Privacy Policy",
+    "title_contact": "Contact Us",
+    "title_student": "Student",
+    "title_news": "News",
+    "title_faq": "Frequently Asked Questions",
+    "title_user": "Profile"
+  },
+  "page_header": {
+    "title": "Privacy Policy",
+    "subtitle": "Manage website Privacy Policy content",
+    "title_contact": "Contact Us",
+    "subtitle_contact": "Manage website Contact content",
+    "title_student": "Student",
+    "subtitle_student": "Manage website Student content",
+    "title_news": "News",
+    "subtitle_news": "Manage website News content",
+    "title_faq": "Frequently Asked Questions",
+    "subtitle_faq": "Manage website Faq content",
+    "title_user": "Profile",
+    "subtitle_user": "Manage Your Profile"
+  },
+  "form": {
+    "page_slug": "Page Slug",
+    "type": "Page Type",
+    "title": "Title",
+    "sub_title": "Subtitle",
+    "details": "Details",
+    "active": "Active",
+    "save_changes": "Save Changes",
+    "saving": "Saving...",
+    "update_success": "updated successfully",
+    "error": "An error occurred. Please try again.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "password": "Password",
+    "password_confirmation": "Confirm Password"
+  },
+  "validation": {
+    "page_slug_required": "Page slug is required",
+    "type_required": "Page type is required",
+    "title_en_required": "English title is required",
+    "title_ar_required": "Arabic title is required",
+    "sub_title_en_required": "English subtitle is required",
+    "sub_title_ar_required": "Arabic subtitle is required",
+    "details_en_required": "English details are required",
+    "details_ar_required": "Arabic details are required",
+    "name": {
+      "required": "Name is required"
+    },
+    "email": {
+      "pattern": "Please enter a valid email"
+    },
+    "phone": {
+      "required": "Phone number is required"
+    },
+    "password_confirmation": {
+      "match": "Passwords do not match"
+    }
+  }
+}

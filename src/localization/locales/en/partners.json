@@ -1,0 +1,48 @@
+{
+    "page_header": {
+        "title": "Partners",
+        "subtitle": "Manage your partners",
+        "actions": {
+            "create": "Add Partner"
+        }
+    },
+    "meta_data": {
+        "title": "Manage Partners"
+    },
+    "table": {
+        "id": "ID",
+        "name": "Partner Name",
+        "image": "Image",
+        "is_featured": "Featured?",
+        "active": "Status",
+        "order_number": "Display Order",
+        "actions": {
+            "edit": "Edit",
+            "view": "View",
+            "delete": "Delete"
+        },
+        "formFields": {
+            "name_en": {
+                "label": "Partner Name (English)",
+                "placeholder": "Enter the partner name in English"
+            },
+            "name_ar": {
+                "label": "Partner Name (Arabic)",
+                "placeholder": "Enter the partner name in Arabic"
+            },
+            "image": {
+                "label": "Partner Logo"
+            },
+            "order_number": {
+                "label": "Display Order",
+                "placeholder": "Enter display order number"
+            },
+            "is_featured": {
+                "label": "Is Featured?"
+            },
+            "active": {
+                "label": "Is Active?"
+            }
+        }
+    }
+}

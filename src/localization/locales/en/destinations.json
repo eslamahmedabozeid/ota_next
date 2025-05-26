@@ -1,0 +1,111 @@
+{
+  "page_header": {
+    "title": "Destinations",
+    "subtitle": "Manage your destinations",
+    "actions": {
+      "create": "Add Destination"
+    }
+  },
+  "meta_data": {
+    "title": "Destination Management"
+  },
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "image": "Image",
+    "main_image": "Main Image",
+    "tags": "Tags",
+    "active": "Status",
+    "temperature": "Temperature",
+    "country": "Country",
+    "is_featured": "Featured?",
+    "lat":"Latitude",
+    "lng":"Longitude",
+    "images":"Gallery Images",
+    "description":"Description",
+    "formFields": {
+      "name_en": {
+        "label": "Name (English)",
+        "placeholder": "Enter name in English"
+      },
+      "name_ar": {
+        "label": "Name (Arabic)",
+        "placeholder": "Enter name in Arabic"
+      },
+      "description_en": {
+        "label": "Description (English)",
+        "placeholder": "Enter description in English"
+      },
+      "description_ar": {
+        "label": "Description (Arabic)",
+        "placeholder": "Enter description in Arabic"
+      },
+      "step_1": {
+        "course": {
+          "label": "Country",
+          "placeholder": "Select a country"
+        }
+      },
+      "lat": {
+        "label": "Latitude",
+        "placeholder": "Enter latitude"
+      },
+      "lng": {
+        "label": "Longitude",
+        "placeholder": "Enter longitude"
+      },
+      "temperature": {
+        "label": "Temperature",
+        "placeholder": "Enter temperature"
+      },
+      "image": {
+        "label": "Destination Images"
+      },
+      "tags_en": {
+        "label": "Tags (English)",
+        "placeholder": "Enter tags in English separated by commas"
+      },
+      "tags_ar": {
+        "label": "Tags (Arabic)",
+        "placeholder": "Enter tags in Arabic separated by commas"
+      },
+      "active": {
+        "label": "Is Active?"
+      },
+      "is_featured": {
+        "label": "Is Featured?"
+      }
+    }
+  }
+  ,
+  "validations": {
+    "name": {
+      "en": {
+        "required": "English name is required"
+      },
+      "ar": {
+        "required": "Arabic name is required"
+      }
+    },
+    "description": {
+      "en": {
+        "required": "English description is required"
+      },
+      "ar": {
+        "required": "Arabic description is required"
+      }
+    },
+    "country": {
+      "required": "Country is required"
+    },
+    "lat": {
+      "invalid": "Latitude must be a valid number"
+    },
+    "lng": {
+      "invalid": "Longitude must be a valid number"
+    },
+    "temperature": {
+      "invalid": "Temperature must be a valid number"
+    }
+  }
+}

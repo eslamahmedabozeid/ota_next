@@ -1,0 +1,70 @@
+{
+  "meta_data": {
+    "title": "Contact Us"
+  },
+  "page_header": {
+    "title": "Contact Requests",
+    "subtitle": "Manage your contact inquiries",
+    "actions": {
+      "create": "Update Status"
+    }
+  },
+  "table": {
+    "id": "ID",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "type": "Type",
+    "message": "Message",
+    "status": "Status",
+    "status_new": "New",
+    "status_opened": "Opened",
+    "status_closed": "Closed",
+    "created_at": "Created At",
+    "updated_at": "Updated At",
+    "filterFields": {
+      "search": {
+        "name": {
+          "placeholder": "Search by name or email"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "New", "value": "new" },
+            { "label": "Opened", "value": "opened" },
+            { "label": "Closed", "value": "closed" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "status": {
+          "label": "Status",
+          "placeholder": "Select the message status",
+          "options": {
+            "new": {
+              "label": "New"
+            },
+            "opened": {
+              "label": "Opened"
+            },
+            "closed": {
+              "label": "Closed"
+            }
+          }
+        }
+      }
+    }
+  },
+  "validations": {
+    "status": {
+      "required": "Status is required.",
+      "invalid": "Invalid status value."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+    "page_header": {
+        "title": "المراجعات",
+        "subtitle": "المراجعات الخاصة بك",
+        "actions": {
+            "create": "إضافة مراجعة"
+        }
+    },
+    "meta_data": {
+        "title": "إدارة المراجعات"
+    },
+    "table": {
+        "id": "المعرف",
+        "name": "الاسم",
+        "sub_title": "العنوان الفرعي",
+        "comment": "التعليق",
+        "stars": "التقييم",
+        "image": "الصورة",
+        "active": "نشط؟",
+        "is_featured": "مميز؟",
+        "actions": {
+            "edit": "تعديل",
+            "view": "عرض",
+            "delete": "حذف"
+        },
+        "formFields": {
+            "name": {
+                "label": "الاسم",
+                "placeholder": "أدخل الاسم"
+            },
+            "sub_title": {
+                "label": "العنوان الفرعي",
+                "placeholder": "أدخل العنوان الفرعي"
+            },
+            "comment": {
+                "label": "التعليق",
+                "placeholder": "أدخل التعليق"
+            },
+            "stars": {
+                "label": "التقييم",
+                "placeholder": "أدخل التقييم (1-5)"
+            },
+            "image": {
+                "label": "صورة المراجع"
+            },
+            "active": {
+                "label": "نشط؟"
+            },
+            "is_featured": {
+                "label": "مميز؟"
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "page_header": {
+        "title": "Reviews",
+        "subtitle": "Your reviews",
+        "actions": {
+            "create": "Add Review"
+        }
+    },
+    "meta_data": {
+        "title": "Manage Reviews"
+    },
+    "table": {
+        "id": "ID",
+        "name": "Name",
+        "sub_title": "Subtitle",
+        "comment": "Comment",
+        "stars": "Stars",
+        "image": "Image",
+        "active": "Active?",
+        "is_featured": "Featured?",
+        "actions": {
+            "edit": "Edit",
+            "view": "View",
+            "delete": "Delete"
+        },
+        "formFields": {
+            "name": {
+                "label": "Name",
+                "placeholder": "Enter name"
+            },
+            "sub_title": {
+                "label": "Subtitle",
+                "placeholder": "Enter subtitle"
+            },
+            "comment": {
+                "label": "Comment",
+                "placeholder": "Enter comment"
+            },
+            "stars": {
+                "label": "Stars",
+                "placeholder": "Enter rating (1-5)"
+            },
+            "image": {
+                "label": "Reviewer Image"
+            },
+            "active": {
+                "label": "Active?"
+            },
+            "is_featured": {
+                "label": "Featured?"
+            }
+        }
+    }
+}

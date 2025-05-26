@@ -1,0 +1,63 @@
+{
+  "meta_data": {
+    "title": "سياسة الخصوصية",
+    "title_contact": "اتصل بنا",
+    "title_student": "الطالب",
+    "title_news": "الأخبار",
+    "title_faq": "الأسئلة الشائعة",
+    "title_user": "الملف الشخصي"
+  },
+  "page_header": {
+    "title": "سياسة الخصوصية",
+    "subtitle": "إدارة محتوى سياسة الخصوصية على الموقع",
+    "title_contact": "اتصل بنا",
+    "subtitle_contact": "إدارة محتوى صفحة اتصل بنا",
+    "title_student": "الطالب",
+    "subtitle_student": "إدارة محتوى صفحة الطالب",
+    "title_news": "الأخبار",
+    "subtitle_news": "إدارة محتوى صفحة الأخبار",
+    "title_faq": "الأسئلة الشائعة",
+    "subtitle_faq": "إدارة محتوى صفحة الأسئلة الشائعة",
+    "title_user": "الملف الشخصي",
+    "subtitle_user": "إدارة ملفك الشخصي"
+  },
+  "form": {
+    "page_slug": "عنوان الصفحة",
+    "type": "نوع الصفحة",
+    "title": "العنوان",
+    "sub_title": "العنوان الفرعي",
+    "details": "التفاصيل",
+    "active": "نشط",
+    "save_changes": "حفظ التغييرات",
+    "saving": "جارٍ الحفظ...",
+    "update_success": "تم التحديث بنجاح",
+    "error": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "password": "كلمة المرور",
+    "password_confirmation": "تأكيد كلمة المرور"
+  },
+  "validation": {
+    "page_slug_required": "عنوان الصفحة مطلوب",
+    "type_required": "نوع الصفحة مطلوب",
+    "title_en_required": "العنوان باللغة الإنجليزية مطلوب",
+    "title_ar_required": "العنوان باللغة العربية مطلوب",
+    "sub_title_en_required": "العنوان الفرعي باللغة الإنجليزية مطلوب",
+    "sub_title_ar_required": "العنوان الفرعي باللغة العربية مطلوب",
+    "details_en_required": "التفاصيل باللغة الإنجليزية مطلوبة",
+    "details_ar_required": "التفاصيل باللغة العربية مطلوبة",
+    "name": {
+      "required": "الاسم مطلوب"
+    },
+    "email": {
+      "pattern": "يرجى إدخال بريد إلكتروني صالح"
+    },
+    "phone": {
+      "required": "رقم الهاتف مطلوب"
+    },
+    "password_confirmation": {
+      "match": "كلمتا المرور غير متطابقتين"
+    }
+  }
+}

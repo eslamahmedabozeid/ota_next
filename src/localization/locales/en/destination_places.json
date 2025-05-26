@@ -1,0 +1,86 @@
+{
+  "page_header": {
+    "title": "Destination Places",
+    "subtitle": "Manage destination places",
+    "actions": {
+      "create": "Add Destination Place"
+    }
+  },
+  "meta_data": {
+    "title": "Destination Place Management"
+  },
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "image": "Image",
+        "lat":"Latitude",
+    "lng":"Longitude",
+    "info_ar":"Info (Arabic)",
+    "info_en":"Info (English)",
+    "category": "Category",
+    "city": "City",
+    "order_number": "Order Number",
+    "active": "Status",
+    "formFields": {
+      "name_en": {
+        "label": "Name (English)",
+        "placeholder": "Enter the name in English"
+      },
+      "name_ar": {
+        "label": "Name (Arabic)",
+        "placeholder": "Enter the name in Arabic"
+      },
+      "category": {
+        "label": "Category",
+        "placeholder": "Select category"
+      },
+      "city": {
+        "label": "City",
+        "placeholder": "Select city"
+      },
+      "image": {
+        "label": "Destination Image"
+      },
+      "order_number": {
+        "label": "Order Number",
+        "placeholder": "Enter order number"
+      },
+      "info_en": {
+        "label": "Info (English)",
+        "placeholder": "Enter description in English"
+      },
+      "info_ar": {
+        "label": "Info (Arabic)",
+        "placeholder": "Enter description in Arabic"
+      }
+    }
+  },
+  "validations": {
+    "name": {
+      "en": {
+        "required": "English name is required"
+      },
+      "ar": {
+        "required": "Arabic name is required"
+      }
+    },
+    "category": {
+      "required": "Category is required"
+    },
+    "city": {
+      "required": "City is required"
+    },
+    "image": {
+      "required": "Image is required"
+    },
+    "order_number": {
+      "invalid": "Order number must be a valid number"
+    },
+    "info_en": {
+      "required": "Information in English is required"
+    },
+    "info_ar": {
+      "required": "Information in Arabic is required"
+    }
+  }
+}

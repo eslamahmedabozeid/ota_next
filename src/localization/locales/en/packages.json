@@ -1,0 +1,204 @@
+{
+  "page_header": {
+    "title": "Packages",
+    "subtitle": "Manage travel packages",
+    "actions": {
+      "create": "Add Package"
+    }
+  },
+  "meta_data": {
+    "title": "Manage Packages"
+  },
+  "table": {
+    "id": "ID",
+    "image": "Image",
+    "title": "Title",
+    "city": "City",
+    "category": "Category",
+    "price_from": "Price From",
+    "price_to": "Price To",
+    "active": "Status",
+    "thumbnail": "Thumbnail",
+    "gallery": "Gallery",
+
+    "category_id": "Category ID",
+    "city_id": "City ID",
+    "country_id": "Country ID",
+    "tour_id": "Tour ID",
+    "country": "Country",
+    "description": "Description",
+    "end_date": "End Date",
+    "start_date": "Start Date",
+    "exclude": "Excluded Items",
+    "include": "Included Items",
+    "images": "Gallery Images",
+    "is_active": "Status",
+    "is_featured": "Featured?",
+    "lat":"Latitude",
+    "lng":"Longitude",
+    "max_group_size": "Maximum Group Size",
+    "min_group_size": "Minimum Group Size",
+    "num_of_days": "Number of Days",
+    "tags": "Tags",
+    "text_address": "Address",
+    "thumbnail_image": "Thumbnail Image",
+    "tour": "Tour",
+    "type": "Type",
+    "formFields": {
+      "title_en": {
+        "label": "Title (English)",
+        "placeholder": "Enter title in English"
+      },
+      "type": {
+      "label": "Type",
+      "placeholder": "Select type",
+      "options": {
+        "package": "Package",
+        "event": "Event"
+      }
+    },
+      "title_ar": {
+        "label": "Title (Arabic)",
+        "placeholder": "Enter title in Arabic"
+      },
+      "description_en": {
+        "label": "Description (English)",
+        "placeholder": "Enter description in English"
+      },
+      "description_ar": {
+        "label": "Description (Arabic)",
+        "placeholder": "Enter description in Arabic"
+      },
+      "country": {
+        "label": "Country",
+        "placeholder": "Select a country"
+      },
+      "city": {
+        "label": "City",
+        "placeholder": "Select a city"
+      },
+      "tour": {
+        "label": "Tour",
+        "placeholder": "Select a tour"
+      },
+      "category": {
+        "label": "Category",
+        "placeholder": "Select a category"
+      },
+      "text_address": {
+        "label": "Address",
+        "placeholder": "Enter address"
+      },
+      "lat": {
+        "label": "Latitude",
+        "placeholder": "Enter latitude"
+      },
+      "lng": {
+        "label": "Longitude",
+        "placeholder": "Enter longitude"
+      },
+      "range": {
+        "label": "Date Range",
+        "placeholder": "Pick a start and end date"
+      },
+      "start_date": {
+        "label": "Start Date",
+        "placeholder": "Enter start date"
+      },
+      "end_date": {
+        "label": "End Date",
+        "placeholder": "Enter end date"
+      },
+      "num_of_days": {
+        "label": "Number of Days",
+        "placeholder": "Enter number of days"
+      },
+      "price_from": {
+        "label": "Price From",
+        "placeholder": "Enter minimum price"
+      },
+      "price_to": {
+        "label": "Price To",
+        "placeholder": "Enter maximum price"
+      },
+      "min_group_size": {
+        "label": "Minimum Group Size",
+        "placeholder": "Enter minimum group size"
+      },
+      "max_group_size": {
+        "label": "Maximum Group Size",
+        "placeholder": "Enter maximum group size"
+      },
+      "include": {
+        "label": "Included Items",
+        "placeholder": "Enter included items"
+      },
+      "exclude": {
+        "label": "Excluded Items",
+        "placeholder": "Enter excluded items"
+      },
+      "thumbnail": {
+        "label": "Thumbnail Image"
+      },
+      "gallery": {
+        "label": "Gallery Images"
+      },
+      "tags_en": {
+        "label": "Tags (English)",
+        "placeholder": "Enter tags in English"
+      },
+      "tags_ar": {
+        "label": "Tags (Arabic)",
+        "placeholder": "Enter tags in Arabic"
+      },
+      "active": {
+        "label": "Is Active?"
+      },
+      "is_featured": {
+        "label": "Featured?"
+      }
+    }
+  },
+  "validations": {
+    "title": {
+      "en": {
+        "required": "English title is required"
+      },
+      "ar": {
+        "required": "Arabic title is required"
+      }
+    },
+    "description": {
+      "en": {
+        "required": "English description is required"
+      },
+      "ar": {
+        "required": "Arabic description is required"
+      }
+    },
+    "country": {
+      "required": "Country is required"
+    },
+    "city": {
+      "required": "City is required"
+    },
+    "tour": {
+      "required": "Tour is required"
+    },
+    "category": {
+      "required": "Category is required"
+    },
+    "address": {
+      "required": "Address is required"
+    },
+    "start_data": {
+      "invalid": "Start date is required"
+    },
+    "end_data": {
+      "invalid": "End date is required"
+    },
+    "price": {
+      "invalid": "Price must be a valid number with up to 2 decimal places"
+    }
+  }
+}

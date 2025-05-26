@@ -1,0 +1,47 @@
+{
+    "page_header": {
+        "title": "Package Categories",
+        "subtitle": "Manage package categories",
+        "actions": {
+            "create": "Add Category"
+        }
+    },
+    "meta_data": {
+        "title": "Package Category Management"
+    },
+    "table": {
+        "id": "ID",
+        "image": "Image",
+        "title": "Title",
+        "active": "Status",
+        "formFields": {
+            "title_en": {
+                "label": "Title (English)",
+                "placeholder": "Enter the title in English"
+            },
+            "title_ar": {
+                "label": "Title (Arabic)",
+                "placeholder": "Enter the title in Arabic"
+            },
+            "image": {
+                "label": "Category Image"
+            },
+            "active": {
+                "label": "Is Active?"
+            }
+        }
+    },
+    "validations": {
+        "name": {
+            "en": {
+                "required": "English title is required"
+            },
+            "ar": {
+                "required": "Arabic title is required"
+            }
+        },
+        "image": {
+            "required": "Image is required"
+        }
+    }
+}

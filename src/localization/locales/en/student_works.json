@@ -1,0 +1,94 @@
+{
+  "meta_data": {
+    "title": "Student Works"
+  },
+  "page_header": {
+    "title": "Student Works",
+    "subtitle": "Manage student submissions",
+    "actions": {
+      "create": "Add New Work"
+    }
+  },
+  "table": {
+    "id": "ID",
+    "title": "Title",
+    "category": "Category",
+    "image": "Image",
+    "active": "Status",
+    "active_true": "Active",
+    "active_false": "Inactive",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "status_published": "Published",
+    "status_pending": "Pending Review",
+    "translation": "Language",
+    "translations": "Languages",
+    "locales": "Languages",
+    "filterFields": {
+      "search": {
+        "title": {
+          "placeholder": "Search by title"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "title_en": {
+          "label": "Title (English)",
+          "placeholder": "Enter the title in English"
+        },
+        "title_ar": {
+          "label": "Title (Arabic)",
+          "placeholder": "Enter the title in Arabic"
+        },
+        "category": {
+          "label": "Category",
+          "placeholder": "Select category"
+        },
+        "image": {
+          "label": "Image",
+          "placeholder": "Upload image"
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        }
+      }
+    }
+  },
+  "validations": {
+    "title_en": {
+      "required": "English title is required.",
+      "pattern": "Only English letters are allowed."
+    },
+    "title_ar": {
+      "required": "Arabic title is required.",
+      "pattern": "Only Arabic letters are allowed."
+    },
+    "category": {
+      "required": "Category is required."
+    },
+    "image": {
+      "required": "Image is required.",
+      "pattern": "Unsupported file type.",
+      "size": "Image must be smaller than 5MB."
+    },
+    "active": {
+      "required": "Active status is required."
+    }
+  }
+}

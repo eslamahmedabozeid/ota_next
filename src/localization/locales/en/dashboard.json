@@ -1,0 +1,27 @@
+{
+  "meta_data": {
+    "title": "Analytics"
+  },
+  "page_header": {
+    "title": "Analytics",
+    "subtitle": "Your training Analytics",
+    "actions": {
+      "create": "Add Course"
+    }
+  },
+  "table": {
+    "id": "ID",
+    "name": "Title",
+    "count": "Registrations Count",
+    "link": "Course Link",
+    "courseview": "View Registrations",
+ "formFields": {
+  "step_1": {
+    "available_dates": {
+      "label": "Available Dates",
+      "placeholder": "Select dates"
+    }
+  }
+}
+  }
+}

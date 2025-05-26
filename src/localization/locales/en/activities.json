@@ -1,0 +1,56 @@
+{
+  "page_header": {
+    "title": "Activities",
+    "subtitle": "Manage activities",
+    "actions": {
+      "create": "Add Activity"
+    }
+  },
+  "meta_data": {
+    "title": "Activity Management"
+  },
+  "table": {
+    "id": "ID",
+    "title": "Title",
+    "image": "Image",
+    "lat": "Latitude",
+    "lng": "Longitude",
+    "formFields": {
+      "title_en": {
+        "label": "Title (English)",
+        "placeholder": "Enter the title in English"
+      },
+      "title_ar": {
+        "label": "Title (Arabic)",
+        "placeholder": "Enter the title in Arabic"
+      },
+      "lat": {
+        "label": "Latitude",
+        "placeholder": "Enter latitude"
+      },
+      "lng": {
+        "label": "Longitude",
+        "placeholder": "Enter longitude"
+      },
+      "image": {
+        "label": "Activity Image"
+      }
+    }
+  },
+  "validations": {
+    "title": {
+      "en": {
+        "required": "English title is required"
+      },
+      "ar": {
+        "required": "Arabic title is required"
+      }
+    },
+    "lat": {
+      "invalid": "Latitude must be a valid number"
+    },
+    "lng": {
+      "invalid": "Longitude must be a valid number"
+    }
+  }
+}

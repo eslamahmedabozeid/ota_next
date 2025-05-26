@@ -1,0 +1,35 @@
+{
+  "meta_data": {
+    "title": "سجلات الطلبات"
+  },
+  "page_header": {
+    "title": "سجلات الطلبات",
+    "subtitle": "تاريخ جميع الطلبات",
+    "actions": {
+      "view": "عرض التفاصيل"
+    }
+  },
+  "table": {
+    "id": "المعرف",
+    "requestId": "رقم الطلب",
+    "status": "الحالة",
+        "status_true": "نشط",
+    "status_false": "غير نشط",
+    "statusLabel": "وصف الحالة",
+    "notes": "ملاحظات",
+    "createdAt": "تاريخ الإنشاء",
+    "createdBy": "تم الإنشاء بواسطة",
+    "actions": "الإجراءات"
+  },
+  "validations": {
+    "requestId": {
+      "required": "رقم الطلب مطلوب."
+    },
+    "status": {
+      "required": "الحالة مطلوبة."
+    },
+    "createdAt": {
+      "required": "تاريخ الإنشاء مطلوب."
+    }
+  }
+}

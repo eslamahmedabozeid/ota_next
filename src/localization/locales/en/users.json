@@ -1,0 +1,144 @@
+{
+  "meta_data": {
+    "title": "Users"
+  },
+  "page_header": {
+    "title": "Users",
+    "subtitle": "Your Users",
+    "actions": { "create": "Add User" }
+  },
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "device_token": "Device Token",
+    "otp_code": "OTP Code",
+    "preferred_lang": "Preferred Language",
+    "verified": "Verified",
+    "order": "Order",
+    "active": "Status",
+    "active_true": "Active",
+    "active_false": "Not Active",
+    "image": "Image",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "is_featured": "Featured",
+    "translation":"Language",
+    "translations":"Languages",
+    "updated_at": "Updated At",
+    "created_at": "Created At",
+    "lat": "Latitude",
+    "lng": "Longitude",
+    "locales": "Locales",
+    "filterFields": {
+      "search": {
+        "name": {
+          "placeholder": "Search by name"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "featured": {
+          "label": "Featured Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "first_name": {
+          "label": "First Name",
+          "placeholder": "Enter the first name"
+        },
+        "last_name": {
+          "label": "Last Name",
+          "placeholder": "Enter the last name"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "Enter the phone number"
+        },
+        
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter the email address"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter the Password "
+        },
+        "password_confirmation": {
+          "label": "Password Confirmation",
+          "placeholder": "Enter the Password Confirmation"
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "featured": {
+          "label": "verified Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "order": {
+          "label": "Order",
+          "placeholder": "Enter the order"
+        },
+        "image": {
+          "label": "Image"
+        }
+      }
+    }
+  },
+  "validations": {
+    "name_en": {
+      "required": "English name is required.",
+      "pattern": "Only English letters are allowed."
+    },
+    "name_ar": {
+      "required": "Arabic name is required.",
+      "pattern": "Only Arabic letters are allowed."
+    },
+    "phone": {
+      "required": "Phone number is required.",
+      "pattern": "Phone number must be a valid Saudi number (05xxxxxxxx or +9665xxxxxxxx)."
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Please enter a valid email address."
+    },
+    "active": {
+      "required": "Active status is required."
+    },
+    "verified": {
+      "required": "Verified status is required."
+    },
+
+    "image": {
+      "required": "Image is required.",
+      "pattern": "Invalid file type.",
+      "size": "Image must be smaller than 5MB."
+    }
+  }
+}

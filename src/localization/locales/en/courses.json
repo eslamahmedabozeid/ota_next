@@ -1,0 +1,296 @@
+{
+  "meta_data": {
+    "title": "Courses"
+  },
+  "page_header": {
+    "title": "Courses",
+    "subtitle": "Your training courses",
+    "actions": {
+      "create": "Add Course"
+    }
+  },
+  "table": {
+    "id": "ID",
+    "title": "Title",
+    "short_info": "Short Info",
+    "details": "Details",
+    "slug": "Slug",
+    "category_id": "Category",
+    "level_id": "Level",
+    "type": "Type",
+    "gender": "Gender",
+    "name": "Title",
+    "creator": "Creator",
+    "duration": "Duration",
+    "category": "Category",
+    "available_users_num": "Available Seats",
+    "registered_users": "Registered Users",
+    "duration_type": "Duration Type",
+    "duration_value": "Duration",
+    "branches": "Branches",
+    "available_dates": "Available Dates",
+    "thumbnail": "Thumbnail",
+    "images": "Gallery",
+    "brochure": "Brochure Link",
+    "brief_video": "Brief Video Link",
+    "is_featured": "Featured",
+    "active": "Status",
+    "level":" Level",
+    "created_by": "Created By",
+    "target": "Target Audience",
+    "email": "Email",
+    "phone": "Phone",
+    "verified": "Verified",
+    "created_at": "Created At",
+    "updated_at": "Updated At",
+    "active_true": "Active",
+    "active_false": "Inactive",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "translation": "Language",
+    "translations": "Languages",
+    "locales": "Available Languages",
+    "filterFields": {
+      "search": {
+        "title": {
+          "placeholder": "Search by title"
+        }
+      },
+      "sidebarFilters": {
+        "type": {
+          "options": {
+            "course": {
+              "label": "Course"
+            },
+            "diploma": {
+              "label": "Diploma"
+            },
+            "program": {
+              "label": "Program"
+            },
+            "training": {
+              "label": "Training"
+            },
+            "all": {
+              "label": "All"
+            }
+          }
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "featured": {
+          "label": "Featured Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "current": {
+          "label": "Current Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "title_en": {
+          "label": "Title (English)",
+          "placeholder": "Enter the course title in English"
+        },
+        "title_ar": {
+          "label": "Title (Arabic)",
+          "placeholder": "Enter the course title in Arabic"
+        },
+        "short_info_en": {
+          "label": "Short Info (English)",
+          "placeholder": "Enter short info in English"
+        },
+        "short_info_ar": {
+          "label": "Short Info (Arabic)",
+          "placeholder": "Enter short info in Arabic"
+        },
+        "details_en": {
+          "label": "Details (English)",
+          "placeholder": "Enter course details in English"
+        },
+        "details_ar": {
+          "label": "Details (Arabic)",
+          "placeholder": "Enter course details in Arabic"
+        },
+        "slug": {
+          "label": "Slug",
+          "placeholder": "Enter a unique slug"
+        },
+        "category": {
+          "label": "Category",
+          "placeholder": "Select category"
+        },
+        "level": {
+          "label": "Level",
+          "placeholder": "Select level"
+        },
+        "type": {
+          "label": "Course Type",
+          "placeholder": "Select type"
+        },
+        "current": {
+          "label": "Current Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "gender": {
+          "label": "Gender",
+          "placeholder": "Select gender",
+          "options": [
+            { "label": "Male" },
+            { "label": "Female" },
+            { "label": "All" }
+          ]
+        },
+        "available_users_num": {
+          "label": "Available Seats",
+          "placeholder": "Enter number of available seats"
+        },
+        "registered_users": {
+          "label": "Registered Users",
+          "placeholder": "Enter number of registered users"
+        },
+        "duration_type": {
+          "label": "Duration Type",
+          "placeholder": "Select time unit"
+        },
+        "duration_value": {
+          "label": "Duration",
+          "placeholder": "Enter course duration"
+        },
+        "order": {
+          "label": "Order",
+          "placeholder": "Enter order number"
+        },
+        "branches": {
+          "label": "Branches",
+          "placeholder": "Select branches"
+        },
+        "available_dates": {
+          "label": "Available Dates",
+          "placeholder": "Select dates"
+        },
+        "thumbnail": {
+          "label": "Thumbnail"
+        },
+        "images": {
+          "label": "Course Gallery"
+        },
+        "brochure": {
+          "label": "Brochure Link",
+          "placeholder": "Enter brochure file link"
+        },
+        "brief_video": {
+          "label": "Brief Video Link",
+          "placeholder": "Enter video link"
+        },
+        "featured": {
+          "label": "Featured Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select course status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        }
+      }
+    }
+  },
+  "validations": {
+    "slug": {
+      "required": "Slug is required.",
+      "pattern": "Slug must be alphanumeric and unique."
+    },
+    "category": {
+      "required": "Category is required."
+    },
+    "available_users_num": {
+      "required": "Available seats number is required.",
+      "integer": "Seats must be an integer."
+    },
+    "registered_users": {
+      "required": "Registered users number is required.",
+      "integer": "Registered users must be an integer."
+    },
+    "duration_type": {
+      "required": "Duration type is required."
+    },
+    "duration_value": {
+      "required": "Duration is required.",
+      "integer": "Duration must be an integer."
+    },
+    "order": {
+      "required": "Order field is required.",
+      "integer": "Order must be an integer."
+    },
+    "branches": {
+      "required": "At least one branch must be selected.",
+      "integer": "Branch must be a valid number."
+    },
+    "brochure": {
+      "url": "Brochure link must be a valid URL."
+    },
+    "brief_video": {
+      "url": "Video link must be a valid URL."
+    },
+    "available_dates": {
+      "pattern": "Date must be in YYYY-MM-DD format."
+    },
+    "gender": {
+      "required": "Gender is required."
+    },
+    "active": {
+      "required": "Status is required."
+    },
+    "title_en": {
+      "required": "Title in English is required.",
+      "pattern": "Only English letters are allowed."
+    },
+    "title_ar": {
+      "required": "Title in Arabic is required.",
+      "pattern": "Only Arabic letters are allowed."
+    },
+    "short_info_en": {
+      "required": "Short info in English is required.",
+      "pattern": "Only English letters are allowed."
+    },
+    "short_info_ar": {
+      "required": "Short info in Arabic is required.",
+      "pattern": "Only Arabic letters are allowed."
+    },
+    "details_en": {
+      "required": "Details in English are required.",
+      "pattern": "Only English letters are allowed."
+    },
+    "details_ar": {
+      "required": "Details in Arabic are required.",
+      "pattern": "Only Arabic letters are allowed."
+    }
+  }
+}

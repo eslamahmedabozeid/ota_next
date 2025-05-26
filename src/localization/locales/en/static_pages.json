@@ -1,0 +1,85 @@
+{
+  "page_header": {
+    "title": "Static Pages",
+    "subtitle": "Manage your static page content",
+    "actions": {
+      "create": "Add Page"
+    }
+  },
+  "meta_data": {
+    "title": "Manage Static Pages"
+  },
+  "table": {
+    "id": "ID",
+    "slug": "Slug",
+    "name": "Name",
+    "title": "Title",
+    "sub_title": "Subtitle",
+    "details": "Details",
+    "action_button_title": "Button Text",
+    "main_image": "Main Image",
+    "image": "Additional Image",
+    "video": "Video",
+    "view_video": "View Video",
+    "actions": {
+      "edit": "Edit",
+      "view": "View",
+      "delete": "Delete"
+    },
+    "formFields": {
+      "slug": {
+        "label": "Slug",
+        "placeholder": "e.g. about-us"
+      },
+      "name_en": {
+        "label": "Name (English)",
+        "placeholder": "Enter name in English"
+      },
+      "name_ar": {
+        "label": "Name (Arabic)",
+        "placeholder": "Enter name in Arabic"
+      },
+      "title_en": {
+        "label": "Title (English)",
+        "placeholder": "Enter title in English"
+      },
+      "title_ar": {
+        "label": "Title (Arabic)",
+        "placeholder": "Enter title in Arabic"
+      },
+      "sub_title_en": {
+        "label": "Subtitle (English)",
+        "placeholder": "Enter subtitle in English"
+      },
+      "sub_title_ar": {
+        "label": "Subtitle (Arabic)",
+        "placeholder": "Enter subtitle in Arabic"
+      },
+      "details_en": {
+        "label": "Details (English)",
+        "placeholder": "Enter page content in English"
+      },
+      "details_ar": {
+        "label": "Details (Arabic)",
+        "placeholder": "Enter page content in Arabic"
+      },
+      "action_button_title_en": {
+        "label": "Button Text (English)",
+        "placeholder": "Enter button text in English"
+      },
+      "action_button_title_ar": {
+        "label": "Button Text (Arabic)",
+        "placeholder": "Enter button text in Arabic"
+      },
+      "main_image": {
+        "label": "Main Image"
+      },
+      "image": {
+        "label": "Additional Image"
+      },
+      "video": {
+        "label": "Video URL"
+      }
+    }
+  }
+}

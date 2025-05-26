@@ -1,0 +1,44 @@
+{
+  "meta_data": {
+    "title": "Settings Management"
+  },
+  "page_header": {
+    "title": "Settings Management",
+    "subtitle": "Manage site settings and contact info"
+  },
+  "table": {
+    "slug": "Slug",
+    "title": "Title",
+    "sub_title": "Subtitle",
+    "action_button_title": "Action Button Title",
+    "main_image": "Main Image",
+    "image": "Image",
+    "video": "Video",
+    "value":"value",
+
+    "formFields": {
+      "slug": {
+        "label": "Slug",
+        "placeholder": "Enter slug"
+      },
+      "title_en": {
+        "label": "Title (English)",
+        "placeholder": "Enter title in English"
+      },
+      "title_ar": {
+        "label": "Title (Arabic)",
+        "placeholder": "Enter title in Arabic"
+      },
+      "icon": {
+        "label": "Icon",
+        "placeholder": "Enter icon name"
+      },
+      "image": {
+        "label": "Image"
+      },
+       "value":{
+         "label": "value"
+      }
+    }
+  }
+}

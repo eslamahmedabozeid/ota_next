@@ -1,0 +1,70 @@
+{
+  "meta_data": {
+    "title": "اتصل بنا"
+  },
+  "page_header": {
+    "title": "طلبات التواصل",
+    "subtitle": "إدارة طلبات التواصل الخاصة بك",
+    "actions": {
+      "create": "تحديث الحالة"
+    }
+  },
+  "table": {
+    "id": "المعرف",
+    "first_name": "الاسم الأول",
+    "last_name": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "type": "النوع",
+    "phone": "رقم الهاتف",
+    "message": "الرسالة",
+    "status": "الحالة",
+    "status_new": "جديد",
+    "status_opened": "مفتوح",
+    "status_closed": "مغلق",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث",
+    "filterFields": {
+      "search": {
+        "name": {
+          "placeholder": "ابحث بالاسم أو البريد الإلكتروني"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "جديد", "value": "new" },
+            { "label": "مفتوح", "value": "opened" },
+            { "label": "مغلق", "value": "closed" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر حالة الرسالة",
+          "options": {
+            "new": {
+              "label": "جديد"
+            },
+            "opened": {
+              "label": "مفتوح"
+            },
+            "closed": {
+              "label": "مغلق"
+            }
+          }
+        }
+      }
+    }
+  },
+  "validations": {
+    "status": {
+      "required": "الحالة مطلوبة.",
+      "invalid": "قيمة الحالة غير صالحة."
+    }
+  }
+}

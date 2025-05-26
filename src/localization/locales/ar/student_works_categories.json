@@ -1,0 +1,94 @@
+{
+  "meta_data": {
+    "title": "أعمال الطلاب"
+  },
+  "page_header": {
+    "title": "أعمال الطلاب",
+    "subtitle": "قم بإدارة أعمال الطلاب",
+    "actions": {
+      "create": "إضافة عمل جديد"
+    }
+  },
+  "table": {
+    "id": "المعرف",
+    "title": "العنوان",
+    "category": "الفئة",
+    "icon": "الصورة",
+    "status_published": "منشور",
+    "status_pending": "قيد المراجعة",
+    "active": "الحالة",
+    "active_true": "نشط",
+    "active_false": "غير نشط",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث",
+    "translation": "اللغة",
+    "translations": "اللغات",
+    "locales": "اللغات",
+    "filterFields": {
+      "search": {
+        "title": {
+          "placeholder": "ابحث بالعنوان"
+        }
+      },
+      "sidebarFilters": {
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "title_en": {
+          "label": "العنوان (بالإنجليزية)",
+          "placeholder": "أدخل العنوان بالإنجليزية"
+        },
+        "title_ar": {
+          "label": "العنوان (بالعربية)",
+          "placeholder": "أدخل العنوان بالعربية"
+        },
+        "category": {
+          "label": "الفئة",
+          "placeholder": "اختر الفئة"
+        },
+        "icon": {
+          "label": "الصورة",
+          "placeholder": "قم برفع صورة"
+        },
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "1" },
+            { "label": "غير نشط", "value": "0" }
+          ]
+        }
+      }
+    }
+  },
+  "validations": {
+    "title_en": {
+      "required": "العنوان بالإنجليزية مطلوب.",
+      "pattern": "يسمح فقط بالحروف الإنجليزية."
+    },
+    "title_ar": {
+      "required": "العنوان بالعربية مطلوب.",
+      "pattern": "يسمح فقط بالحروف العربية."
+    },
+    "category": {
+      "required": "الفئة مطلوبة."
+    },
+    "image": {
+      "required": "الصورة مطلوبة.",
+      "pattern": "نوع الملف غير مسموح به.",
+      "size": "يجب أن يكون حجم الصورة أقل من 5MB."
+    },
+    "active": {
+      "required": "حالة النشاط مطلوبة."
+    }
+  }
+}

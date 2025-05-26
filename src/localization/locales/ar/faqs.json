@@ -1,0 +1,43 @@
+{
+  "meta_data": {
+    "title": "الأسئلة الشائعة"
+  },
+  "page_header": {
+    "title": "الأسئلة الشائعة",
+    "subtitle": "إدارة الأسئلة الشائعة",
+    "actions": {
+      "create": "إضافة سؤال"
+    }
+  },
+  "table": {
+    "id": "المعرف",
+    "title": "السؤال",
+    "active": "الحالة",
+    "active_true": "نشط",
+    "active_false": "غير نشط",
+    "formFields": {
+      "title_en": {
+        "label": "السؤال (بالإنجليزية)",
+        "placeholder": "أدخل السؤال باللغة الإنجليزية"
+      },
+      "title_ar": {
+        "label": "السؤال (بالعربية)",
+        "placeholder": "أدخل السؤال باللغة العربية"
+      },
+      "active": {
+        "label": "الحالة"
+      }
+    }
+  },
+  "validations": {
+    "title_en": {
+      "required": "السؤال بالإنجليزية مطلوب."
+    },
+    "title_ar": {
+      "required": "السؤال بالعربية مطلوب."
+    },
+    "active": {
+      "required": "الحالة مطلوبة."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "page_header": {
+    "title": "Tours",
+    "subtitle": "Manage tours",
+    "actions": {
+      "create": "Add Tour"
+    }
+  },
+  "meta_data": {
+    "title": "Tour Management"
+  },
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "active": "Status",
+    "formFields": {
+      "name_en": {
+        "label": "Name (English)",
+        "placeholder": "Enter name in English"
+      },
+      "name_ar": {
+        "label": "Name (Arabic)",
+        "placeholder": "Enter name in Arabic"
+      },
+      "active": {
+        "label": "Is Active?"
+      }
+    }
+  },
+  "validations": {
+    "name": {
+      "en": {
+        "required": "English name is required"
+      },
+      "ar": {
+        "required": "Arabic name is required"
+      }
+    }
+  }
+}

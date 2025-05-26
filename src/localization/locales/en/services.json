@@ -1,0 +1,53 @@
+{
+  "page_header": {
+    "title": "Services",
+    "subtitle": "Your services",
+    "actions": {
+      "create": "Add Service"
+    }
+  },
+  "meta_data": {
+    "title": "Manage Services"
+  },
+  "table": {
+    "id": "ID",
+    "title": "Service Title",
+    "description": "Description",
+    "image": "Image",
+    "is_active": "Status",
+    "order_number": "Display Order",
+    "actions": {
+      "edit": "Edit",
+      "view": "View",
+      "delete": "Delete"
+    },
+    "formFields": {
+      "title_en": {
+        "label": "Service Title (English)",
+        "placeholder": "Enter the service title in English"
+      },
+      "title_ar": {
+        "label": "Service Title (Arabic)",
+        "placeholder": "Enter the service title in Arabic"
+      },
+      "description_en": {
+        "label": "Description (English)",
+        "placeholder": "Enter the service description in English"
+      },
+      "description_ar": {
+        "label": "Description (Arabic)",
+        "placeholder": "Enter the service description in Arabic"
+      },
+      "image": {
+        "label": "Service Image"
+      },
+      "order_number": {
+        "label": "Display Order",
+        "placeholder": "Enter display order number"
+      },
+      "is_active": {
+        "label": "Is Active?"
+      }
+    }
+  }
+}

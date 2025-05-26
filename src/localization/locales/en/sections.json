@@ -1,0 +1,48 @@
+{
+    "meta_data": {
+      "title": "Sections Management"
+    },
+    "page_header": {
+      "title": "Sections Management",
+      "subtitle": "Sections"
+    },
+    "page_slugs": {
+      "home": "Home",
+      "home-business": "Business Home",
+      "about-us": "About Us",
+      "courses-diploma": "Courses & Diplomas",
+      "programs": "Programs"
+    },
+    "page_types": {
+      "individual": "Individual",
+      "business": "Business"
+    },
+    "form": {
+      "main_section": "Main Section",
+      "sub_sections": "Sub Sections",
+      "sub_section": "Sub Section",
+      "back_to_pages": "Back to Pages",
+      "page": "Page",
+      "type": "Type",
+      "order_number": "Order Number",
+      "add_sub_section": "Add Sub Section",
+      "image": "Image",
+      "title": "Title",
+      "subtitle": "Subtitle",
+      "details": "Details",
+      "active": "Active",
+      "save_changes": "Save Changes",
+      "saving": "Saving...",
+      "Delete": "Delete",
+      "required": "required",
+      "success": "Section updated successfully",
+      "error": "Failed to update section"
+    },
+    "validation": {
+      "title_required": "Title is required",
+      "subtitle_required": "Subtitle is required",
+      "details_required": "Details are required",
+      "image_required": "Image is required"
+    }
+  }
+  

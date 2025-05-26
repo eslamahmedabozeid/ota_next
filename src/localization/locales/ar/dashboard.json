@@ -1,0 +1,28 @@
+{
+  "meta_data": {
+    "title": "الاحصائيات"
+  },
+  "page_header": {
+    "title": "الاحصائيات",
+    "subtitle": "دوراتك التدريبية",
+    "actions": {
+      "create": "إضافة دورة"
+    }
+  },
+  "table": {
+    "id": "المعرف",
+    "name": "العنوان",
+    "count": "عدد المسجلين",
+    "link": "رابط الدورة",
+    "courseview": "عرض المسجلين",
+    "formFields": {
+      "step_1": {
+        "available_dates": {
+          "label": "التواريخ المتاحة",
+          "placeholder": "اختر التواريخ"
+        }
+      }
+    }
+  }
+
+}

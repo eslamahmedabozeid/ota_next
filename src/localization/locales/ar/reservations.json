@@ -1,0 +1,138 @@
+{
+  "page_header": {
+    "title": "الحجوزات",
+    "subtitle": "إدارة طلبات الحجز",
+    "actions": {
+      "create": "إضافة حجز"
+    }
+  },
+  "meta_data": {
+    "title": "إدارة الحجوزات"
+  },
+  "table": {
+    "id": "المعرف",
+    "first_name": "الاسم الأول",
+    "last_name": "الاسم الأخير",
+    "phone": "رقم الهاتف",
+    "email": "البريد الإلكتروني",
+    "type": "النوع",
+    "country": "الدولة",
+    "visa_type": "نوع التأشيرة",
+    "total_price": "السعر الإجمالي",
+    "statusColumns": "الحالة",
+    "is_paidColumns":"تم الدفع",
+     "true":"نعم",
+    "false":"لا",
+     "extra_fees": "رسوم إضافية",
+    "status": {
+      "options": {
+        "1": "جديد",
+        "2": "قيد الانتظار",
+        "3": "موافق عليه",
+        "4": "قيد المعالجة",
+        "5": "ملغي",
+        "6": "تم الاسترداد",
+        "7": "مكتمل",
+        "8": "محذوف"
+      }
+    },
+    "formFields": {
+      "first_name": {
+        "label": "الاسم الأول",
+        "placeholder": "أدخل الاسم الأول"
+      },
+      "last_name": {
+        "label": "الاسم الأخير",
+        "placeholder": "أدخل الاسم الأخير"
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "placeholder": "أدخل رقم الهاتف"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل البريد الإلكتروني"
+      },
+      "notes": {
+        "label": "ملاحظات",
+        "placeholder": "أدخل أي ملاحظات"
+      },
+      "type": {
+        "label": "نوع الطلب",
+        "placeholder": "أدخل نوع الطلب"
+      },
+      "sub_total": {
+        "label": "الإجمالي الفرعي",
+        "placeholder": "أدخل الإجمالي الفرعي"
+      },
+      "extra_fees": {
+        "label": "رسوم إضافية",
+        "placeholder": "أدخل الرسوم الإضافية"
+      },
+      "total_price": {
+        "label": "السعر الإجمالي",
+        "placeholder": "أدخل السعر الإجمالي"
+      },
+      "country": {
+        "label": "الدولة",
+        "placeholder": "اختر الدولة"
+      },
+      "visa_type": {
+        "label": "نوع التأشيرة",
+        "placeholder": "اختر نوع التأشيرة"
+      },
+      "status": {
+        "label": "الحالة",
+        "placeholder": "اختر الحالة",
+        "options": {
+          "new": "جديد",
+          "pending": "قيد الانتظار",
+          "approved": "موافق عليه",
+          "processing": "قيد المعالجة",
+          "cancelled": "ملغي",
+          "refunded": "تم الاسترداد",
+          "completed": "مكتمل",
+          "deleted": "محذوف"
+        }
+      },
+      "is_paid": {
+        "label": "تم الدفع؟"
+      }
+    }
+  },
+  "validations": {
+    "first_name": {
+      "required": "الاسم الأول مطلوب"
+    },
+    "last_name": {
+      "required": "الاسم الأخير مطلوب"
+    },
+    "phone": {
+      "required": "رقم الهاتف مطلوب"
+    },
+    "email": {
+      "invalid": "صيغة البريد الإلكتروني غير صحيحة"
+    },
+    "type": {
+      "required": "نوع الطلب مطلوب"
+    },
+    "sub_total": {
+      "invalid": "الإجمالي الفرعي غير صالح"
+    },
+    "extra_fees": {
+      "invalid": "الرسوم الإضافية غير صالحة"
+    },
+    "total_price": {
+      "invalid": "السعر الإجمالي غير صالح"
+    },
+    "country": {
+      "required": "الدولة مطلوبة"
+    },
+    "visa_type": {
+      "required": "نوع التأشيرة مطلوب"
+    },
+    "status": {
+      "required": "حالة الطلب مطلوبة"
+    }
+  }
+}

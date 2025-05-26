@@ -1,0 +1,53 @@
+{
+  "page_header": {
+    "title": "الخدمات",
+    "subtitle": "الخدمات الخاصة بك",
+    "actions": {
+      "create": "إضافة خدمة"
+    }
+  },
+  "meta_data": {
+    "title": "إدارة الخدمات"
+  },
+  "table": {
+    "id": "المعرف",
+    "title": "عنوان الخدمة",
+    "description": "الوصف",
+    "image": "الصورة",
+    "is_active": "الحالة",
+    "order_number": "ترتيب العرض",
+    "actions": {
+      "edit": "تعديل",
+      "view": "عرض",
+      "delete": "حذف"
+    },
+    "formFields": {
+      "title_en": {
+        "label": "عنوان الخدمة (بالإنجليزية)",
+        "placeholder": "أدخل عنوان الخدمة بالإنجليزية"
+      },
+      "title_ar": {
+        "label": "عنوان الخدمة (بالعربية)",
+        "placeholder": "أدخل عنوان الخدمة بالعربية"
+      },
+      "description_en": {
+        "label": "الوصف (بالإنجليزية)",
+        "placeholder": "أدخل وصف الخدمة بالإنجليزية"
+      },
+      "description_ar": {
+        "label": "الوصف (بالعربية)",
+        "placeholder": "أدخل وصف الخدمة بالعربية"
+      },
+      "image": {
+        "label": "صورة الخدمة"
+      },
+      "order_number": {
+        "label": "ترتيب العرض",
+        "placeholder": "أدخل رقم الترتيب"
+      },
+      "is_active": {
+        "label": "نشطة؟"
+      }
+    }
+  }
+}

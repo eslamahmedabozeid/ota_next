@@ -1,0 +1,137 @@
+{
+  "meta_data": {
+    "title": "Curriculum Sections"
+  },
+  "page_header": {
+    "title": "Curriculum Sections",
+    "subtitle": "Manage all curriculum sections for courses",
+    "actions": {
+      "create": "Add Curriculum Section"
+    }
+  },
+  "table": {
+    "id": "ID",
+    "slug": "Slug",
+    "title": "Title",
+    "course_id": "Course ID",
+    "description": "Description",
+    "coursetitle": "Course Title",
+    "thumbnail": "Thumbnail",
+    "featured": "Featured",
+    "active": "Status",
+    "course":"Course",
+    "active_true": "Active",
+    "active_false": "Inactive",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "short_info": "Short Info",
+    "details": "Details",
+    "category_id": "Category",
+    "level_id": "Level",
+    "type": "Type",
+    "gender": "Gender",
+    "name": "Title",
+    "creator": "Creator",
+    "duration": "Duration",
+    "category": "Category",
+    "available_users_num": "Available Seats",
+    "registrations_count": "Registrations Count",
+    "registered_users": "Registered Users",
+    "duration_type": "Duration Type",
+    "duration_value": "Duration",
+    "branches": "Branches",
+    "available_dates": "Available Dates",
+    "images": "Gallery",
+    "brochure": "Brochure Link",
+    "brief_video": "Brief Video Link",
+    "is_featured": "Featured",
+    "level":" Level",
+    "created_by": "Created By",
+    "target": "Target Audience",
+    "email": "Email",
+    "phone": "Phone",
+    "verified": "Verified",
+    "created_at": "Created At",
+    "updated_at": "Updated At",
+
+    "translation": "Language",
+    "translations": "Languages",
+    "locales": "Available Languages",
+    "filterFields": {
+      "sidebarFilters": {
+        "status": {
+          "label": "Status",
+          "placeholder": "Select status",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "title_en": {
+          "label": "Title (English)",
+          "placeholder": "Enter the section title in English"
+        },
+        "title_ar": {
+          "label": "Title (Arabic)",
+          "placeholder": "Enter the section title in Arabic"
+        },
+        "description_en": {
+          "label": "Description (English)",
+          "placeholder": "Enter the section description in English"
+        },
+        "description_ar": {
+          "label": "Description (Arabic)",
+          "placeholder": "Enter the section description in Arabic"
+        },
+        "course": {
+          "label": "Related Course",
+          "placeholder": "Select the course this section belongs to"
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select active state",
+          "options": [
+            { "label": "Active", "value": "1" },
+            { "label": "Inactive", "value": "0" }
+          ]
+        },
+        "order": {
+          "label": "Order",
+          "placeholder": "Enter display order (e.g. 1, 2, 3...)"
+        }
+      }
+    }
+  },
+  "validations": {
+    "title_en": {
+      "required": "English title is required.",
+      "pattern": "Only English letters are allowed."
+    },
+    "title_ar": {
+      "required": "Arabic title is required.",
+      "pattern": "Only Arabic letters are allowed."
+    },
+    "description_en": {
+      "required": "English description is required."
+    },
+    "description_ar": {
+      "required": "Arabic description is required."
+    },
+    "course_id": {
+      "required": "Course is required.",
+      "integer": "Course ID must be a valid number."
+    },
+    "active": {
+      "required": "Status is required."
+    },
+    "order": {
+      "required": "Order is required.",
+      "integer": "Order must be a valid integer.",
+      "min": "Order must be at least 1."
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "page_header": {
+    "title": "الباقات",
+    "subtitle": "إدارة الباقات السياحية",
+    "actions": {
+      "create": "إضافة باقة"
+    }
+  },
+  "meta_data": {
+    "title": "إدارة الباقات"
+  },
+  "table": {
+    "id": "المعرف",
+    "image": "الصورة",
+    "title": "العنوان",
+    "city": "المدينة",
+    "category": "التصنيف",
+    "price_from": "السعر من",
+    "price_to": "السعر إلى",
+    "active": "الحالة",
+      "category_id": "معرف التصنيف",
+  "city_id": "معرف المدينة",
+  "country_id": "معرف الدولة",
+  "tour_id": "معرف الجولة",
+  "country": "الدولة",
+  "description": "الوصف",
+  "end_date": "تاريخ الانتهاء",
+  "start_date": "تاريخ البدء",
+  "exclude": "العناصر غير المشمولة",
+  "include": "العناصر المشمولة",
+  "images": "معرض الصور",
+  "is_active": "الحالة",
+  "is_featured": "مميز؟",
+  "lat": "خط العرض",
+  "lng": "خط الطول",
+  "max_group_size": "الحد الأقصى لحجم المجموعة",
+  "min_group_size": "الحد الأدنى لحجم المجموعة",
+  "num_of_days": "عدد الأيام",
+  "tags": "الوسوم",
+  "text_address": "العنوان",
+  "thumbnail_image": "الصورة المصغرة",
+  "tour": "الجولة",
+  "type": "النوع",
+    "thumbnail": "الصورة المصغرة",
+    "gallery": "معرض الصور",
+    "formFields": {
+      "title_en": {
+        "label": "العنوان (بالإنجليزية)",
+        "placeholder": "أدخل العنوان بالإنجليزية"
+      },
+      "type": {
+      "label": "النوع",
+      "placeholder": "اختر النوع",
+      "options": {
+        "package": "باقة",
+        "event": "فعالية"
+      }
+    },
+      "title_ar": {
+        "label": "العنوان (بالعربية)",
+        "placeholder": "أدخل العنوان بالعربية"
+      },
+      "description_en": {
+        "label": "الوصف (بالإنجليزية)",
+        "placeholder": "أدخل الوصف بالإنجليزية"
+      },
+      "description_ar": {
+        "label": "الوصف (بالعربية)",
+        "placeholder": "أدخل الوصف بالعربية"
+      },
+      "country": {
+        "label": "الدولة",
+        "placeholder": "اختر الدولة"
+      },
+      "city": {
+        "label": "المدينة",
+        "placeholder": "اختر المدينة"
+      },
+      "tour": {
+        "label": "الجولة",
+        "placeholder": "اختر الجولة"
+      },
+      "category": {
+        "label": "التصنيف",
+        "placeholder": "اختر التصنيف"
+      },
+      "text_address": {
+        "label": "العنوان",
+        "placeholder": "أدخل العنوان"
+      },
+      "lat": {
+        "label": "خط العرض",
+        "placeholder": "أدخل خط العرض"
+      },
+      "lng": {
+        "label": "خط الطول",
+        "placeholder": "أدخل خط الطول"
+      },
+      "range": {
+        "label": "الفترة",
+        "placeholder": "اختر تاريخ البدء والانتهاء"
+      },
+      "start_date": {
+        "label": "تاريخ البدء",
+        "placeholder": "أدخل تاريخ البدء"
+      },
+      "end_date": {
+        "label": "تاريخ الانتهاء",
+        "placeholder": "أدخل تاريخ الانتهاء"
+      },
+      "num_of_days": {
+        "label": "عدد الأيام",
+        "placeholder": "أدخل عدد الأيام"
+      },
+      "price_from": {
+        "label": "السعر من",
+        "placeholder": "أدخل السعر الأدنى"
+      },
+      "price_to": {
+        "label": "السعر إلى",
+        "placeholder": "أدخل السعر الأعلى"
+      },
+      "min_group_size": {
+        "label": "الحد الأدنى للمجموعة",
+        "placeholder": "أدخل الحد الأدنى"
+      },
+      "max_group_size": {
+        "label": "الحد الأقصى للمجموعة",
+        "placeholder": "أدخل الحد الأقصى"
+      },
+      "include": {
+        "label": "يشمل",
+        "placeholder": "أدخل ما يشمله العرض"
+      },
+      "exclude": {
+        "label": "لا يشمل",
+        "placeholder": "أدخل ما لا يشمله العرض"
+      },
+      "thumbnail": {
+        "label": "الصورة المصغرة"
+      },
+      "gallery": {
+        "label": "معرض الصور"
+      },
+      "tags_en": {
+        "label": "الوسوم (بالإنجليزية)",
+        "placeholder": "أدخل الوسوم بالإنجليزية"
+      },
+      "tags_ar": {
+        "label": "الوسوم (بالعربية)",
+        "placeholder": "أدخل الوسوم بالعربية"
+      },
+      "active": {
+        "label": "نشط؟"
+      },
+      "is_featured": {
+        "label": "مميز؟"
+      }
+    }
+  },
+  "validations": {
+    "title": {
+      "en": {
+        "required": "العنوان بالإنجليزية مطلوب"
+      },
+      "ar": {
+        "required": "العنوان بالعربية مطلوب"
+      }
+    },
+    "description": {
+      "en": {
+        "required": "الوصف بالإنجليزية مطلوب"
+      },
+      "ar": {
+        "required": "الوصف بالعربية مطلوب"
+      }
+    },
+    "country": {
+      "required": "الدولة مطلوبة"
+    },
+    "city": {
+      "required": "المدينة مطلوبة"
+    },
+    "tour": {
+      "required": "الجولة مطلوبة"
+    },
+    "category": {
+      "required": "التصنيف مطلوب"
+    },
+    "address": {
+      "required": "العنوان مطلوب"
+    },
+    "start_data": {
+      "invalid": "تاريخ البدء مطلوب"
+    },
+    "end_data": {
+      "invalid": "تاريخ الانتهاء مطلوب"
+    },
+    "price": {
+      "invalid": "يجب أن يكون السعر رقمًا صحيحًا أو عشريًا بصيغة صحيحة"
+    }
+  }
+}
